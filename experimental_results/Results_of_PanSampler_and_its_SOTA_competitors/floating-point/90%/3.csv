@@ -1,0 +1,865 @@
+Instance,,PanSampler,,,JFSampling,
+,,#sol,time,,#sol,time
+QF_BVFP/20170428-Liew-KLEE/aachen_real_diction_style.x86_64/query.27,,2,17.4,,3,300.0
+QF_BVFP/20170428-Liew-KLEE/aachen_real_gmp_gmp_klee_integer.x86_64/query.10,,1,0.7,,1,300.0
+QF_BVFP/20170428-Liew-KLEE/aachen_real_numerical_recipes_gaussj.x86_64/query.01,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/aachen_real_numerical_recipes_qrdcmp.x86_64/query.1,,1,8.4,,1,300.0
+QF_BVFP/20170428-Liew-KLEE/aachen_real_wxpro_tostr.x86_64/query.32,,- -,- -,,6,1.4
+QF_BVFP/20170428-Liew-KLEE/aachen_real_wxpro_tostr.x86_64/query.57,,- -,- -,,4,1.4
+QF_BVFP/20170428-Liew-KLEE/aachen_real_wxpro_tostr.x86_64/query.68,,- -,- -,,4,1.5
+QF_BVFP/20170428-Liew-KLEE/aachen_syn_halve_longdouble-flow.x86_64/query.0,,3,0.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/aachen_syn_mod_double.x86_64/query.00,,992,66.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/aachen_syn_sqr_double-flow.x86_64/query.5,,- -,- -,,5,0.8
+QF_BVFP/20170428-Liew-KLEE/aachen_syn_sqr_double-noflow.x86_64/query.1,,3,110.8,,4,0.8
+QF_BVFP/20170428-Liew-KLEE/aachen_syn_sqr_double-noflow.x86_64/query.2,,5,188.5,,4,0.8
+QF_BVFP/20170428-Liew-KLEE/aachen_syn_sqr_double-noflow.x86_64/query.3,,- -,- -,,5,0.9
+QF_BVFP/20170428-Liew-KLEE/aachen_syn_sqr_float-noflow.x86_64/query.3,,3,16.7,,4,0.8
+QF_BVFP/20170428-Liew-KLEE/aachen_syn_sqr_longdouble-noflow.x86_64/query.1,,3,261.1,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_blas_klee_bug.x86_64/query.2,,1,3.6,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_blas_klee_correct.x86_64/query.4,,- -,- -,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_differentiation_klee.x86_64/query.10,,- -,- -,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_polyroots_klee_high_degree_bug.x86_64/query.01,,2,0.3,,2,300.0
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0022,,10,6.5,,11,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0023,,4,3.3,,11,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0034,,9,5.2,,23,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0040,,5,5.0,,47,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0051,,10,8.6,,41,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0053,,6,6.6,,35,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0056,,9,6.5,,11,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0083,,4,5.7,,241,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0112,,7,7.8,,68,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0128,,9,9.4,,65,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0131,,10,9.9,,25,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0151,,9,10.5,,64,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0165,,14,16.3,,210,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0232,,6,7.4,,106,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0245,,5,6.0,,27,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0264,,7,7.8,,36,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0278,,10,10.8,,102,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0331,,7,9.1,,48,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0346,,7,7.7,,75,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0367,,13,14.8,,548,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0376,,11,12.4,,33,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0399,,3,4.5,,87,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0426,,6,6.4,,74,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0440,,6,6.7,,30,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0468,,7,8.5,,35,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0478,,6,6.7,,40,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0635,,8,10.8,,46,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0655,,5,6.9,,18,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0660,,5,4.6,,16,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0671,,4,6.9,,73,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0672,,4,5.9,,46,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0716,,6,8.3,,54,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0757,,7,8.3,,45,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0809,,7,9.0,,59,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0854,,9,10.9,,32,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0867,,8,9.2,,119,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0892,,7,8.6,,26,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0919,,11,12.2,,50,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.0959,,5,5.9,,33,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1004,,15,19.6,,39,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1029,,9,10.7,,74,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1049,,10,12.9,,46,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1103,,6,6.1,,50,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1163,,4,5.3,,73,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1172,,3,4.0,,31,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1208,,8,9.7,,307,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1237,,3,4.8,,99,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1278,,8,8.5,,46,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1444,,4,6.0,,214,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1547,,6,6.7,,87,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1559,,4,5.9,,31,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1754,,10,9.4,,81,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1913,,6,7.4,,23,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.1987,,3,3.8,,89,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2078,,15,13.6,,18,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2092,,7,10.5,,49,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2186,,8,12.2,,38,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2240,,3,5.3,,27,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2271,,10,11.4,,23,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2273,,9,14.0,,43,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2356,,5,4.9,,51,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2422,,8,8.7,,32,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2557,,7,7.8,,19,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2571,,4,6.5,,24,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee.x86_64/query.2590,,7,8.8,,147,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0023,,4,4.4,,16,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0384,,6,6.5,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0436,,10,10.9,,27,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0456,,4,4.9,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0504,,10,12.3,,43,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0516,,7,9.1,,198,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0624,,7,7.4,,45,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0685,,9,10.3,,430,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0913,,8,9.0,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0928,,11,10.7,,37,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.0930,,9,10.8,,18,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1133,,4,5.7,,19,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1137,,5,8.3,,31,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1196,,8,11.0,,197,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1234,,12,12.8,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1255,,14,14.3,,42,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1266,,3,4.5,,41,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1371,,2,3.8,,35,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1374,,5,7.0,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1432,,6,7.7,,57,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1491,,11,10.8,,142,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1523,,5,6.5,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1610,,7,9.4,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1622,,4,4.4,,140,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1625,,6,7.1,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1692,,5,6.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1766,,8,9.4,,29,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1900,,6,9.8,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1906,,6,7.0,,387,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1907,,9,11.5,,160,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1960,,6,6.3,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.1975,,7,10.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2063,,8,8.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2065,,8,9.9,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2077,,8,10.3,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2108,,4,4.7,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2165,,9,12.9,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2167,,3,4.8,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2189,,6,7.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2200,,20,31.4,,21,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_gsl_benchmarks_sort_smallest_klee_bug.x86_64/query.2202,,7,9.3,,17,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_bary_diverge.x86_64/query.01,,6,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_bary_diverge.x86_64/query.07,,2,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_exp_loop.c.x86_64/query.053,,1,0.2,,1,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_exp_loop.c.x86_64/query.077,,1,0.2,,1,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_filter2_set.x86_64/query.01,,2,0.3,,4,9.9
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_filter2_set.x86_64/query.17,,752,117.5,,4,19.0
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00100,,2,0.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00104,,23,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00116,,19,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00128,,- -,- -,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00195,,17,2.2,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00213,,3,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00220,,27,0.6,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00221,,2,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00234,,5,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00242,,20,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00350,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00365,,4,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00378,,55,8.1,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00443,,5,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00454,,5,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00462,,13,1.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00522,,4,0.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00554,,2,0.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00574,,4,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00607,,2,0.0,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00610,,- -,- -,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00628,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00635,,3,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00653,,534,11.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00672,,4,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00682,,18,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00692,,78,2.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00726,,140,17.9,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00739,,2,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00768,,4,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00880,,2,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00881,,19,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00895,,12,0.2,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00897,,23,3.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00922,,2,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00924,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00939,,5,0.9,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00954,,96,13.0,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00989,,9,0.2,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.00991,,7,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01090,,16,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01116,,3,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01169,,6,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01170,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01176,,62,8.8,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01192,,2,0.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01267,,2,0.0,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01291,,41,0.9,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01333,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01372,,52,0.7,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01394,,2,0.0,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01402,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01426,,29,0.7,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01433,,- -,- -,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01439,,2,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01458,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01464,,2,0.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01522,,52,1.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01614,,6,0.8,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01628,,- -,- -,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01651,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01652,,40,0.9,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01686,,4,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01721,,18,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01725,,4,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01741,,41,0.6,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01744,,16,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01745,,93,1.8,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01756,,30,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01803,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01830,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01833,,2,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01850,,4,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01914,,2,0.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01937,,17,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.01983,,3,0.5,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02046,,2,0.4,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02061,,5,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02074,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02092,,46,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02103,,4,0.5,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02146,,15,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02150,,43,0.7,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02231,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02273,,21,0.3,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02282,,9,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02288,,59,1.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02307,,4,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02310,,3,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02324,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02345,,2,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02351,,24,0.5,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02354,,2,0.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02375,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02379,,2,0.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02421,,3,0.5,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02439,,427,53.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02440,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02451,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02459,,46,0.7,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02467,,44,0.9,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02471,,7,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02477,,14,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02486,,4,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02573,,7,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02598,,5,0.7,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02657,,- -,- -,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02689,,491,13.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02703,,2,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02718,,3,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02722,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02747,,23,0.4,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02752,,40,0.8,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02863,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02865,,3,0.5,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02891,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02911,,38,0.7,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02955,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02986,,2,0.0,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02992,,2,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.02996,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03010,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03011,,44,0.7,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03017,,17,0.2,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03034,,29,0.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03041,,2,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03058,,3,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03116,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03131,,42,0.8,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03133,,50,0.8,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03151,,12,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03214,,2,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03215,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03217,,52,1.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03221,,2,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03234,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03247,,21,0.3,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03251,,11,0.2,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03268,,14,0.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03294,,12,1.8,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03361,,16,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03367,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03369,,2,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03383,,64,1.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03389,,66,1.2,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03391,,8,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03392,,17,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03406,,2,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03432,,6,0.9,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03435,,5,0.7,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03442,,13,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03454,,7,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03459,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03497,,16,0.3,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03543,,8,1.2,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03553,,26,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03566,,53,1.0,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03570,,5,0.7,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03600,,6,0.7,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03615,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03623,,8,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03625,,35,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03654,,2,0.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03668,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03718,,118,3.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03734,,30,0.5,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03827,,235,3.7,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03839,,16,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03870,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03880,,7,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03883,,23,0.3,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03886,,- -,- -,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03894,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03901,,26,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03910,,211,3.8,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03911,,35,0.8,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03921,,4,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03956,,28,0.6,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03962,,2,0.1,,7,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03976,,44,0.8,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03987,,3,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.03990,,6,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04020,,2,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04021,,26,0.4,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04062,,3,0.5,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04067,,21,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04086,,299,37.7,,4,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04100,,5,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04104,,4,0.6,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04108,,17,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04110,,9,1.4,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04175,,3,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04252,,4,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04280,,2,0.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04291,,8,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04311,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04317,,2,0.2,,6,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04329,,6,0.9,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04335,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04344,,3,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04369,,2,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04391,,59,0.9,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04445,,30,0.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04464,,3,0.4,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04519,,7,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04529,,9,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04539,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04596,,11,1.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04607,,183,4.8,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04621,,186,3.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04639,,3,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04647,,264,32.8,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04655,,80,1.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04675,,735,85.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04711,,41,0.8,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04744,,34,0.7,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04803,,3,0.5,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04806,,6,0.8,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04813,,4,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04825,,2,0.0,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04838,,14,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04839,,10,1.5,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04865,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04868,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04874,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04883,,4,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04887,,5,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04894,,14,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04945,,33,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.04997,,279,4.7,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05008,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05019,,16,2.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05049,,2,0.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05051,,24,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05127,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05160,,10,1.5,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05274,,8,1.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05297,,5,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05299,,8,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05327,,556,13.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05361,,12,1.8,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05381,,23,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05440,,7,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05508,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05527,,2,0.0,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05612,,302,5.8,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05623,,34,0.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05639,,135,2.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05647,,251,5.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05659,,57,1.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05675,,448,6.4,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05696,,81,1.9,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05714,,32,0.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05715,,3,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05744,,80,2.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05762,,6,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05789,,93,2.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05793,,4,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05860,,14,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05875,,13,0.2,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05929,,2,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.05976,,3,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06014,,3,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06024,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06057,,5,0.7,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06064,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06079,,2,0.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06090,,3,0.4,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06120,,4,0.7,,6,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06155,,39,1.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06164,,16,0.3,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06180,,129,19.8,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06201,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06221,,2,0.0,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06233,,44,0.8,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06248,,2,0.0,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06276,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06312,,4,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06359,,28,0.5,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06362,,7,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06409,,64,1.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06426,,617,100.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06430,,30,0.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06433,,229,4.0,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06447,,2,0.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06509,,18,0.4,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06516,,6,0.9,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06532,,20,0.3,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06601,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06647,,2,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06684,,3,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06697,,3,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06699,,7,0.8,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06713,,6,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06729,,4,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06743,,17,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06766,,22,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06770,,15,0.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06772,,41,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06807,,6,0.7,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06929,,23,0.4,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06943,,589,37.7,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06952,,289,5.2,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06961,,113,2.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06963,,4,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06985,,17,0.2,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.06994,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07008,,3,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07009,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07065,,3,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07089,,10,1.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07103,,12,0.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07152,,6,0.9,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07155,,4,0.5,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07197,,12,1.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07232,,7,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07256,,2,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07275,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07279,,25,0.5,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07291,,6,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07296,,3,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07303,,59,1.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07370,,5,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07375,,40,0.8,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07424,,- -,- -,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07441,,5,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07483,,4,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07492,,2,0.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07497,,4,0.7,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07518,,7,1.1,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07544,,22,0.5,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07574,,14,0.2,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07580,,2,0.0,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07584,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07586,,30,0.5,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07620,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07633,,15,0.3,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07661,,35,0.6,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07665,,5,0.8,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07677,,23,2.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07713,,3,0.4,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07730,,2,0.0,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07743,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07750,,102,1.7,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07761,,9,1.5,,6,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07774,,85,1.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07794,,3,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07865,,68,1.6,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07886,,52,0.9,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07888,,12,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07915,,34,0.7,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07958,,122,1.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07974,,3,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.07975,,693,56.5,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08009,,2,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08011,,688,19.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08037,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08057,,49,1.3,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08065,,81,1.2,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08152,,23,0.5,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08237,,124,2.2,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08242,,15,0.3,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08256,,30,3.8,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08259,,90,13.0,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08309,,46,1.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08333,,82,1.2,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08334,,6,1.0,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08381,,23,0.4,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08504,,8,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08553,,948,141.9,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08565,,681,88.5,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08599,,53,0.8,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08612,,19,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08632,,61,1.0,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08640,,61,9.0,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08649,,3,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08680,,46,0.7,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08682,,6,0.8,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08703,,52,6.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08721,,3,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08739,,164,23.7,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08745,,4,0.5,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08760,,8,1.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08799,,4,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08816,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08885,,15,0.3,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08886,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08888,,8,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08895,,2,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08947,,2,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08955,,12,1.8,,6,0.8
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08962,,22,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08973,,5,0.8,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.08982,,3,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09061,,2,0.0,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09117,,2,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09130,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09165,,6,0.8,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09188,,29,0.5,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09203,,26,0.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09212,,52,0.9,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09214,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09246,,4,0.6,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09271,,22,0.5,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09292,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09302,,52,1.2,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09321,,2,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09328,,6,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09337,,30,0.5,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09341,,24,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09374,,2,0.1,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09489,,3,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09490,,25,0.4,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09521,,781,23.9,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09523,,3,0.1,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09550,,15,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09552,,3,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09560,,32,0.4,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09573,,10,1.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09579,,6,0.9,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09621,,674,87.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09634,,26,0.5,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09674,,15,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09698,,38,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09704,,4,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09726,,203,26.8,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09749,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09793,,12,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09797,,28,0.6,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09805,,24,0.5,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09813,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09840,,4,0.7,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09858,,5,0.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09861,,3,0.4,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09870,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09889,,15,0.2,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09893,,17,0.3,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09943,,9,0.2,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.09995,,2,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10001,,206,2.9,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10002,,3,0.5,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10011,,4,0.6,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10014,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10077,,3,0.4,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10114,,2,0.0,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10116,,7,1.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10149,,4,0.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10155,,4,0.7,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10185,,12,1.9,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10194,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10196,,17,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10213,,2,0.0,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10217,,5,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10244,,2,0.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10249,,2,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10287,,6,0.8,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10301,,26,0.5,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10309,,23,0.3,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10311,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10338,,3,0.4,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10435,,23,0.3,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10442,,46,1.1,,8,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10446,,2,0.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10482,,359,53.6,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10490,,26,0.5,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10495,,922,68.2,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10504,,10,0.2,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10525,,17,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10546,,8,0.1,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10575,,2,0.3,,3,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10578,,120,11.7,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10582,,5,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10584,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10628,,2,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10637,,46,0.7,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10639,,2,0.0,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10641,,6,0.8,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10644,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10657,,13,0.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10691,,74,2.8,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10695,,2,0.3,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10697,,3,0.1,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10701,,4,0.6,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10703,,11,0.2,,7,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10750,,43,0.9,,5,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10754,,88,1.2,,4,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_mea8000.x86_64/query.10791,,2,0.3,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.087,,6,12.1,,61,1.0
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.167,,5,13.8,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.180,,4,13.3,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.181,,4,17.0,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.262,,5,19.4,,34,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.271,,4,13.1,,47,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.276,,5,16.9,,63,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.283,,4,15.0,,58,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.327,,4,15.7,,119,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.358,,4,16.6,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.372,,5,19.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.408,,5,22.7,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.494,,5,26.2,,505,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.501,,6,18.9,,337,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.519,,4,17.1,,228,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.538,,4,19.3,,593,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.558,,5,23.4,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.572,,4,20.8,,181,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.691,,7,36.4,,79,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.695,,6,28.3,,131,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.697,,7,38.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_rlim_invariant.x86_64/query.705,,4,19.6,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_sin_interpolated_bigrange_tight.x86_64/query.11,,3,8.5,,5,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_sqrt_householder_interval.x86_64/query.1,,3,0.4,,6,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_sqrt_householder_interval.x86_64/query.5,,3,265.3,,9,1.8
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_sqrt_householder_interval.x86_64/query.6,,- -,- -,,4,3.7
+QF_BVFP/20170428-Liew-KLEE/imperial_svcomp_float-benchs_svcomp_sqrt_householder_interval.x86_64/query.7,,3,221.4,,5,1.4
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_count_klee.x86_64/query.02,,1,0.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_count_klee.x86_64/query.04,,2,0.5,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_count_klee.x86_64/query.11,,2,1.5,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_count_klee.x86_64/query.20,,2,3.3,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_count_klee.x86_64/query.83,,2,17.1,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_fsub_to_exact_zero_klee_float.x86_64/query.02,,4,0.6,,5,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_interval_klee_bug.x86_64/query.21,,3,13.4,,7,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_interval_klee_bug.x86_64/query.26,,3,36.1,,6,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_interval_klee_bug_symbolic_increment.x86_64/query.18,,- -,- -,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_memcpy_and_use_as_bitvector_klee.x86_64/query.070,,3,1.3,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.12,,27,76.1,,4,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.13,,5,16.6,,4,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.14,,7,27.4,,4,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.15,,3,16.9,,4,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.16,,11,40.0,,5,0.9
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.17,,14,50.9,,6,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.18,,15,57.4,,4,1.0
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.19,,5,34.0,,3,1.0
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.20,,7,38.7,,4,1.0
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.21,,6,51.6,,4,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.22,,15,89.2,,4,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.23,,6,58.4,,4,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.24,,8,91.6,,4,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.25,,9,70.2,,4,1.1
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.26,,7,67.0,,4,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.27,,25,200.0,,5,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.28,,4,58.8,,4,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.29,,18,138.7,,3,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.30,,3,117.0,,4,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_bug.x86_64/query.31,,16,194.7,,3,1.2
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_non_terminating_klee_no_bug.x86_64/query.01,,7,0.2,,2,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sorted_search_klee_bug_float.x86_64/query.07,,8,2.3,,18,0.7
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee.x86_64/query.10,,2,8.3,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee.x86_64/query.15,,3,15.6,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee.x86_64/query.20,,3,22.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee.x86_64/query.25,,4,43.0,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee.x86_64/query.30,,3,131.2,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee.x86_64/query.35,,4,119.7,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee_bug.x86_64/query.20,,3,24.9,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee_bug.x86_64/query.25,,3,66.8,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_sqrt_klee_bug.x86_64/query.30,,3,80.5,,- -,- -
+QF_BVFP/20170428-Liew-KLEE/imperial_synthetic_vanishing_klee_bug.x86_64/query.4,,49,32.3,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_179,,- -,- -,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_315,,- -,- -,,52,0.8
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_414,,- -,- -,,9,0.8
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_422,,- -,- -,,52,0.8
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_430,,4,41.4,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_446,,- -,- -,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/Muller_Kahan_true-unreach-call.c_68,,- -,- -,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/filter2_set_true-unreach-call.c_11,,- -,- -,,137,0.9
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/filter2_true-unreach-call.c_11,,- -,- -,,48,1.0
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_constant_true-unreach-call.c_274,,- -,- -,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_constant_true-unreach-call.c_4,,- -,- -,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/sqrt_Householder_interval_true-unreach-call.c_4,,- -,- -,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/sqrt_Newton_pseudoconstant_true-unreach-call.c_188,,- -,- -,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/sqrt_Newton_pseudoconstant_true-unreach-call.c_4,,- -,- -,,- -,- -
+QF_BVFP/20170501-Heizmann-UltimateAutomizer/sqrt_biNewton_pseudoconstant_true-unreach-call.c_4,,- -,- -,,- -,- -
+,,,,,,
+QF_FP/20170501-Heizmann-UltimateAutomizer/Newlib-BadKrozingenChallenge-Oversimplified,,- -,- -,,- -,- -
+QF_FP/20170501-Heizmann-UltimateAutomizer/cos_polynomial_true-unreach-call.c_9,,- -,- -,,- -,- -
+QF_FP/20170501-Heizmann-UltimateAutomizer/filter2_reinit_true-unreach-call.c_7,,- -,- -,,17,0.9
+QF_FP/20170501-Heizmann-UltimateAutomizer/image_filter_true-unreach-call.c_2,,- -,- -,,21,0.9
+QF_FP/20170501-Heizmann-UltimateAutomizer/water_pid_true-unreach-call.c_14,,- -,- -,,- -,- -
+QF_FP/20170501-Heizmann-UltimateAutomizer/water_pid_true-unreach-call.c_372,,- -,- -,,116,0.9
+QF_FP/griggio/fmcad12/div.c.10,,4,230.3,,- -,- -
+QF_FP/griggio/fmcad12/div.c.20,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div.c.3,,5,39.0,,- -,- -
+QF_FP/griggio/fmcad12/div.c.30,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div.c.40,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div.c.50,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div2.c.10,,5,220.9,,- -,- -
+QF_FP/griggio/fmcad12/div2.c.20,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div2.c.3,,4,29.5,,- -,- -
+QF_FP/griggio/fmcad12/div2.c.30,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div2.c.40,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div2.c.50,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div3.c.10,,4,207.5,,- -,- -
+QF_FP/griggio/fmcad12/div3.c.20,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div3.c.3,,4,32.3,,- -,- -
+QF_FP/griggio/fmcad12/div3.c.30,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div3.c.40,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/div3.c.50,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/e1.c,,3,2.9,,277,0.8
+QF_FP/griggio/fmcad12/e1_1.c,,4,3.5,,82,0.8
+QF_FP/griggio/fmcad12/e1_2.c,,4,4.0,,- -,- -
+QF_FP/griggio/fmcad12/e2.c,,4,56.9,,- -,- -
+QF_FP/griggio/fmcad12/e2_1.c,,5,50.1,,16,0.8
+QF_FP/griggio/fmcad12/e2_2.c,,4,14.5,,27,0.8
+QF_FP/griggio/fmcad12/e2_3.c,,4,9.0,,136,0.8
+QF_FP/griggio/fmcad12/e2a_1.c,,4,6.0,,5,0.8
+QF_FP/griggio/fmcad12/e2a_2.c,,7,11.8,,2,0.8
+QF_FP/griggio/fmcad12/e2a_3.c,,2,4.2,,3,0.8
+QF_FP/griggio/fmcad12/e3_1.c,,4,91.7,,11,0.9
+QF_FP/griggio/fmcad12/e3_2.c,,4,64.8,,50,0.8
+QF_FP/griggio/fmcad12/f23,,3,118.1,,4,1.3
+QF_FP/griggio/fmcad12/gaussian.c.125,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/gaussian.c.175,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/gaussian.c.25,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/gaussian.c.75,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mul_000003_30000_1,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mul_03_3000_1,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mul_03_3_1,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mult1.c.10,,6,118.7,,- -,- -
+QF_FP/griggio/fmcad12/mult1.c.20,,4,252.6,,- -,- -
+QF_FP/griggio/fmcad12/mult1.c.3,,4,15.9,,9,0.8
+QF_FP/griggio/fmcad12/mult1.c.30,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mult1.c.40,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mult1.c.50,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mult2.c.10,,5,176.4,,- -,- -
+QF_FP/griggio/fmcad12/mult2.c.20,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mult2.c.3,,10,44.5,,27,0.8
+QF_FP/griggio/fmcad12/mult2.c.30,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mult2.c.40,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/mult2.c.50,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/newton.4.1.i,,3,231.4,,4,1.1
+QF_FP/griggio/fmcad12/newton.5.1.i,,- -,- -,,4,1.1
+QF_FP/griggio/fmcad12/newton.5.3.i,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/newton.6.1.i,,4,156.7,,4,1.1
+QF_FP/griggio/fmcad12/newton.6.2.i,,- -,- -,,4,2.0
+QF_FP/griggio/fmcad12/newton.6.3.i,,- -,- -,,4,5.9
+QF_FP/griggio/fmcad12/newton.7.1.i,,3,131.9,,4,1.1
+QF_FP/griggio/fmcad12/newton.7.2.i,,- -,- -,,4,1.4
+QF_FP/griggio/fmcad12/newton.7.3.i,,- -,- -,,4,2.0
+QF_FP/griggio/fmcad12/newton.8.1.i,,3,170.5,,4,1.1
+QF_FP/griggio/fmcad12/newton.8.2.i,,- -,- -,,6,1.3
+QF_FP/griggio/fmcad12/newton.8.3.i,,- -,- -,,4,1.6
+QF_FP/griggio/fmcad12/sin.c.125,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin.c.175,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin.c.25,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin.c.75,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.10,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.125,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.15,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.175,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.2,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.20,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.25,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.5,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sin2.c.75,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sine.1.0.i,,4,232.2,,5,0.9
+QF_FP/griggio/fmcad12/sqrt.c.10,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sqrt.c.15,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sqrt.c.2,,4,237.1,,- -,- -
+QF_FP/griggio/fmcad12/sqrt.c.20,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sqrt.c.25,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/sqrt.c.5,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s14052,,7,72.8,,8,1.0
+QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s24300,,3,74.8,,9,1.2
+QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s29304,,3,62.9,,4,1.0
+QF_FP/griggio/fmcad12/test_v3_r3_vr1_c1_s10392,,4,36.2,,4,1.0
+QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s16641,,5,63.5,,4,1.0
+QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s16867,,4,36.4,,3,1.0
+QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s26769,,4,65.9,,4,1.0
+QF_FP/griggio/fmcad12/test_v3_r8_vr10_c1_s5590,,3,204.2,,4,1.5
+QF_FP/griggio/fmcad12/test_v5_r10_vr10_c1_s15708,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v5_r10_vr1_c1_s13516,,- -,- -,,10,2.3
+QF_FP/griggio/fmcad12/test_v5_r10_vr1_c1_s19145,,- -,- -,,7,2.3
+QF_FP/griggio/fmcad12/test_v5_r10_vr5_c1_s13195,,- -,- -,,7,2.2
+QF_FP/griggio/fmcad12/test_v5_r10_vr5_c1_s13679,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v5_r15_vr10_c1_s14516,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v5_r15_vr10_c1_s25268,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s5379,,4,273.2,,5,1.5
+QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s5996,,- -,- -,,5,1.5
+QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s7194,,- -,- -,,33,3.1
+QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s14623,,- -,- -,,22,5.4
+QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s15604,,4,225.0,,16,1.5
+QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s16138,,- -,- -,,11,1.5
+QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s24018,,- -,- -,,25,1.5
+QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s2800,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s9855,,- -,- -,,11,1.5
+QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s15994,,- -,- -,,14,3.3
+QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s18160,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s30410,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r12_vr1_c1_s10576,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r12_vr1_c1_s22787,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r12_vr1_c1_s703,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r12_vr5_c1_s14336,,- -,- -,,12,4.1
+QF_FP/griggio/fmcad12/test_v7_r12_vr5_c1_s29826,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r12_vr5_c1_s8938,,- -,- -,,4,3.3
+QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s18654,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s3680,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s8773,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r17_vr1_c1_s23882,,- -,- -,,23,55.9
+QF_FP/griggio/fmcad12/test_v7_r17_vr1_c1_s24331,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r17_vr5_c1_s25451,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r17_vr5_c1_s2807,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r17_vr5_c1_s4772,,- -,- -,,- -,- -
+QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s10625,,- -,- -,,27,6.2
+QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s24535,,- -,- -,,6,2.2
+QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s32506,,- -,- -,,66,2.6
+QF_FP/griggio/fmcad12/test_v7_r7_vr1_c1_s22845,,- -,- -,,7,4.9
+QF_FP/griggio/fmcad12/test_v7_r7_vr1_c1_s4574,,- -,- -,,21,2.5
+QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s14675,,- -,- -,,19,2.3
+QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s19694,,- -,- -,,9,11.6
+QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s3582,,- -,- -,,5,2.2
+QF_FP/ramalho/esbmc/nan_double-main,,- -,- -,,- -,- -
+QF_FP/ramalho/esbmc/nan_float-main,,- -,- -,,- -,- -
+QF_FP/ramalho/esbmc/newton_3_6_false-unreach-call-main,,- -,- -,,- -,- -
+QF_FP/ramalho/esbmc/sine_4_true-unreach-call-main,,- -,- -,,- -,- -
+QF_FP/schanda/spark/O220-024,,4,6.0,,14,11.5
+QF_FP/schanda/spark/angle_between_2,,- -,- -,,33,1.1
+QF_FP/schanda/spark/assoc_add,,6,244.6,,6,0.8
+QF_FP/schanda/spark/assoc_mult,,4,27.2,,10,0.8
+QF_FP/schanda/spark/average_3,,46,29.4,,13,1.5
+QF_FP/schanda/spark/average_5,,8,14.9,,11,0.8
+QF_FP/schanda/spark/average_6,,4,8.8,,12,0.9
+QF_FP/schanda/spark/cancel_2,,1,0.2,,1,300.0
+QF_FP/schanda/spark/cases_2,,1,0.2,,1,0.7
+QF_FP/schanda/spark/exp_3_precision,,4,16.1,,4,0.8
+QF_FP/schanda/spark/guarded_div_1,,2,7.2,,- -,- -
+QF_FP/schanda/spark/guarded_div_2,,3,18.8,,- -,- -
+QF_FP/schanda/spark/incorrect_reordering,,- -,- -,,1,0.8
+QF_FP/schanda/spark/protected_divide,,1,10.9,,1,1.0
+QF_FP/schanda/spark/riposte_floats_are_not_rational,,1,0.2,,- -,- -
+QF_FP/schanda/spark/scale_1,,1,0.3,,1,300.0
+QF_FP/schanda/spark/underflow_1,,1,1.0,,1,0.7
+QF_FP/schanda/spark/user_rule_1,,- -,- -,,- -,- -
+QF_FP/schanda/spark/zeros_count_1,,1,0.1,,1,300.0

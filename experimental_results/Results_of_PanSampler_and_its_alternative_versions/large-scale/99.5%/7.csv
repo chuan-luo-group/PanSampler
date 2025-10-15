@@ -1,0 +1,554 @@
+Instance,,PanSampler,,,Alt-1,,,Alt-2,,,Alt-3,
+,,#sol,time,,#sol,time,,#sol,time,,#sol,time
+QF_BV/RWS/Example_3.txt,,97,903.8,,99,1189.4,,231,2099.4,,108,509.5
+QF_BV/RWS/Example_8.txt,,32,175.8,,33,157.3,,46,240.8,,34,130.6
+QF_BV/RWS/Example_9.txt,,54,2321.3,,58,2558.1,,- -,- -,,56,805.7
+QF_BV/RWS/Example_10.txt,,- -,- -,,- -,- -,,- -,- -,,132,2005.3
+QF_BV/RWS/Example_11.txt,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_BV/RWS/Example_12.txt,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_BV/RWS/Example_13.txt,,88,1466.3,,94,1671.1,,181,3034.9,,95,1122.6
+QF_BV/RWS/Example_16.txt,,83,1512.0,,88,1790.1,,166,2477.9,,95,1870.2
+QF_BV/RWS/Example_17.txt,,75,1780.9,,83,1867.6,,139,2519.3,,83,1327.8
+QF_BV/sage/app1/bench_4,,14,768.0,,35,1499.5,,27,2746.7,,17,369.7
+QF_BV/sage/app1/bench_29,,18,215.6,,19,179.1,,75,1313.6,,24,295.6
+QF_BV/sage/app1/bench_32,,17,332.1,,18,241.1,,109,1512.7,,24,186.7
+QF_BV/sage/app1/bench_37,,15,849.4,,35,1333.6,,29,944.4,,18,407.1
+QF_BV/sage/app1/bench_47,,18,284.7,,24,356.2,,95,1177.7,,24,166.4
+QF_BV/sage/app1/bench_52,,19,493.3,,24,283.0,,88,1572.8,,26,168.5
+QF_BV/sage/app1/bench_53,,18,490.1,,23,165.0,,90,1435.7,,24,168.6
+QF_BV/sage/app1/bench_54,,16,323.7,,28,294.6,,135,1406.1,,29,198.3
+QF_BV/sage/app1/bench_55,,18,285.2,,24,267.4,,74,1225.6,,23,175.6
+QF_BV/sage/app1/bench_60,,19,221.8,,21,491.7,,68,797.3,,24,170.0
+QF_BV/sage/app1/bench_61,,17,264.4,,24,249.5,,121,1220.6,,25,176.1
+QF_BV/sage/app1/bench_62,,18,500.3,,25,505.8,,82,966.2,,26,173.0
+QF_BV/sage/app1/bench_63,,18,289.5,,24,426.5,,66,809.8,,27,171.8
+QF_BV/sage/app1/bench_66,,17,260.2,,24,180.7,,78,590.5,,24,161.1
+QF_BV/sage/app1/bench_69,,17,195.8,,23,384.2,,102,1148.2,,25,161.2
+QF_BV/sage/app1/bench_99,,17,248.2,,22,367.6,,102,1111.3,,26,151.8
+QF_BV/sage/app1/bench_134,,17,249.9,,24,265.0,,85,776.8,,24,175.2
+QF_BV/sage/app1/bench_169,,17,415.4,,24,196.8,,67,1111.6,,22,137.3
+QF_BV/sage/app1/bench_174,,16,216.8,,26,257.2,,55,709.6,,25,143.3
+QF_BV/sage/app1/bench_175,,16,224.1,,24,197.6,,77,729.3,,28,169.3
+QF_BV/sage/app1/bench_176,,18,319.3,,24,236.9,,114,1250.6,,23,140.8
+QF_BV/sage/app1/bench_177,,18,462.7,,21,231.9,,105,1051.6,,25,144.6
+QF_BV/sage/app1/bench_181,,14,797.6,,38,2199.8,,31,1370.7,,17,440.1
+QF_BV/sage/app1/bench_182,,16,220.8,,21,216.8,,161,2280.7,,25,148.8
+QF_BV/sage/app1/bench_183,,16,385.2,,20,205.7,,85,570.2,,23,215.1
+QF_BV/sage/app1/bench_184,,18,270.7,,26,340.3,,95,1049.4,,22,84.7
+QF_BV/sage/app1/bench_185,,16,249.9,,21,186.4,,100,768.0,,25,140.2
+QF_BV/sage/app1/bench_188,,16,163.6,,25,239.6,,127,1543.6,,23,191.4
+QF_BV/sage/app1/bench_191,,18,263.3,,24,218.9,,85,884.3,,27,106.8
+QF_BV/sage/app1/bench_201,,17,495.8,,24,251.8,,105,2052.5,,24,163.0
+QF_BV/sage/app1/bench_268,,17,194.3,,23,201.5,,131,1244.6,,24,135.1
+QF_BV/sage/app1/bench_310,,17,288.8,,28,275.9,,126,1342.0,,24,162.3
+QF_BV/sage/app1/bench_313,,19,317.3,,29,318.0,,230,2942.5,,25,113.4
+QF_BV/sage/app1/bench_329,,27,390.7,,42,388.7,,- -,- -,,39,157.0
+QF_BV/sage/app1/bench_333,,27,394.4,,38,279.6,,- -,- -,,41,242.2
+QF_BV/sage/app1/bench_334,,26,405.9,,34,307.8,,- -,- -,,39,222.5
+QF_BV/sage/app1/bench_335,,27,356.7,,39,397.9,,- -,- -,,40,232.8
+QF_BV/sage/app1/bench_338,,18,284.6,,26,255.7,,152,3213.8,,23,158.1
+QF_BV/sage/app1/bench_342,,25,377.5,,44,473.7,,362,3411.2,,37,203.8
+QF_BV/sage/app1/bench_343,,26,352.5,,38,537.7,,- -,- -,,40,355.8
+QF_BV/sage/app1/bench_344,,26,317.5,,34,311.1,,- -,- -,,44,376.0
+QF_BV/sage/app1/bench_345,,16,306.7,,28,250.7,,78,605.2,,23,91.5
+QF_BV/sage/app1/bench_349,,16,242.1,,27,219.5,,81,982.5,,22,144.8
+QF_BV/sage/app1/bench_352,,27,454.7,,36,373.9,,- -,- -,,35,209.3
+QF_BV/sage/app1/bench_356,,24,331.4,,32,419.1,,- -,- -,,34,193.6
+QF_BV/sage/app1/bench_372,,26,374.9,,37,443.7,,- -,- -,,34,188.7
+QF_BV/sage/app1/bench_407,,24,353.4,,31,271.6,,- -,- -,,32,191.1
+QF_BV/sage/app1/bench_411,,24,228.3,,29,283.3,,- -,- -,,32,265.4
+QF_BV/sage/app1/bench_412,,23,260.8,,30,291.7,,- -,- -,,30,174.4
+QF_BV/sage/app1/bench_413,,24,218.4,,28,244.2,,- -,- -,,29,143.0
+QF_BV/sage/app1/bench_415,,25,366.8,,32,314.0,,- -,- -,,38,217.3
+QF_BV/sage/app1/bench_419,,23,302.1,,29,287.7,,- -,- -,,34,203.8
+QF_BV/sage/app1/bench_420,,23,318.3,,33,501.9,,- -,- -,,29,175.3
+QF_BV/sage/app1/bench_421,,24,312.1,,28,571.2,,- -,- -,,31,154.4
+QF_BV/sage/app1/bench_422,,23,237.8,,32,288.9,,269,2827.1,,33,204.9
+QF_BV/sage/app1/bench_426,,15,243.0,,19,200.3,,85,566.0,,18,100.2
+QF_BV/sage/app1/bench_429,,23,295.7,,31,264.6,,- -,- -,,29,206.2
+QF_BV/sage/app1/bench_443,,23,320.2,,31,287.3,,- -,- -,,30,182.5
+QF_BV/sage/app1/bench_511,,25,193.1,,59,337.2,,227,3069.8,,32,206.0
+QF_BV/sage/app1/bench_512,,24,233.1,,38,347.3,,- -,- -,,30,173.4
+QF_BV/sage/app1/bench_517,,25,259.7,,92,482.7,,- -,- -,,33,202.1
+QF_BV/sage/app1/bench_531,,23,227.3,,31,254.8,,- -,- -,,29,170.2
+QF_BV/sage/app1/bench_535,,25,257.6,,35,307.9,,258,3269.1,,30,161.2
+QF_BV/sage/app1/bench_537,,24,253.3,,33,265.6,,- -,- -,,33,177.8
+QF_BV/sage/app1/bench_539,,24,246.4,,44,365.9,,- -,- -,,31,176.4
+QF_BV/sage/app1/bench_542,,30,281.8,,36,243.5,,196,2137.6,,32,169.0
+QF_BV/sage/app1/bench_545,,23,225.4,,53,419.4,,243,3215.5,,30,163.2
+QF_BV/sage/app1/bench_552,,28,271.5,,41,376.2,,188,3054.3,,38,240.2
+QF_BV/sage/app1/bench_556,,23,335.6,,32,271.8,,- -,- -,,31,125.9
+QF_BV/sage/app1/bench_562,,22,252.8,,24,206.5,,105,770.3,,27,157.2
+QF_BV/sage/app1/bench_564,,21,488.0,,23,208.6,,67,543.0,,24,138.2
+QF_BV/sage/app1/bench_567,,21,199.0,,22,303.7,,85,854.9,,26,88.8
+QF_BV/sage/app1/bench_571,,21,271.3,,21,182.0,,54,534.0,,25,91.0
+QF_BV/sage/app1/bench_602,,21,324.5,,23,235.5,,77,1009.4,,24,161.9
+QF_BV/sage/app1/bench_611,,21,334.5,,23,204.0,,111,1217.6,,23,225.3
+QF_BV/sage/app1/bench_620,,21,297.6,,22,215.0,,94,1754.0,,23,120.8
+QF_BV/sage/app1/bench_629,,20,240.0,,22,264.0,,76,1162.8,,25,154.8
+QF_BV/sage/app1/bench_638,,20,286.7,,22,229.0,,103,1138.1,,24,131.4
+QF_BV/sage/app1/bench_646,,20,489.0,,21,168.6,,159,1211.5,,24,145.1
+QF_BV/sage/app1/bench_655,,20,276.8,,20,366.3,,90,1072.8,,23,136.0
+QF_BV/sage/app1/bench_664,,21,196.0,,22,160.6,,83,856.4,,24,136.5
+QF_BV/sage/app1/bench_674,,21,274.0,,22,161.5,,81,738.9,,23,133.2
+QF_BV/sage/app1/bench_681,,14,813.7,,25,1033.1,,26,3119.9,,17,369.6
+QF_BV/sage/app1/bench_683,,21,524.6,,20,376.6,,155,1197.3,,24,86.9
+QF_BV/sage/app1/bench_691,,20,251.4,,21,165.0,,105,1022.1,,24,135.6
+QF_BV/sage/app1/bench_692,,14,753.9,,35,1173.2,,37,1671.6,,16,396.4
+QF_BV/sage/app1/bench_699,,21,276.6,,21,187.1,,104,1749.4,,25,129.6
+QF_BV/sage/app1/bench_707,,21,227.0,,22,172.3,,88,1136.5,,24,129.7
+QF_BV/sage/app1/bench_715,,20,228.3,,22,390.1,,121,1245.9,,25,127.8
+QF_BV/sage/app1/bench_722,,21,243.1,,22,188.5,,135,2197.6,,24,129.5
+QF_BV/sage/app1/bench_730,,21,201.0,,23,196.6,,152,2240.8,,25,122.6
+QF_BV/sage/app1/bench_738,,21,242.6,,23,173.0,,167,2122.0,,25,113.2
+QF_BV/sage/app1/bench_745,,22,216.8,,23,167.6,,113,862.2,,26,118.4
+QF_BV/sage/app1/bench_753,,24,325.1,,30,212.4,,180,1488.0,,28,136.9
+QF_BV/sage/app1/bench_761,,24,272.1,,30,208.3,,105,1190.6,,27,169.6
+QF_BV/sage/app1/bench_836,,14,849.3,,31,1230.6,,26,2929.3,,17,394.8
+QF_BV/sage/app1/bench_847,,14,787.9,,32,886.4,,38,3314.1,,17,450.5
+QF_BV/sage/app1/bench_858,,13,753.8,,32,1135.8,,30,1588.5,,18,918.3
+QF_BV/sage/app1/bench_869,,14,1335.1,,34,1046.5,,56,2800.6,,18,461.7
+QF_BV/sage/app1/bench_880,,15,804.4,,31,1257.5,,24,1146.3,,17,355.6
+QF_BV/sage/app1/bench_914,,13,684.9,,37,855.6,,33,1037.5,,17,375.4
+QF_BV/sage/app1/bench_926,,24,159.4,,30,154.2,,148,1395.0,,30,165.8
+QF_BV/sage/app1/bench_947,,15,609.4,,34,1183.8,,37,2004.5,,18,389.4
+QF_BV/sage/app1/bench_983,,25,465.9,,28,185.1,,193,1897.5,,28,149.2
+QF_BV/sage/app1/bench_985,,23,218.7,,29,186.2,,102,1272.0,,28,144.8
+QF_BV/sage/app1/bench_987,,20,378.9,,27,161.3,,64,349.9,,23,108.5
+QF_BV/sage/app1/bench_989,,17,192.9,,25,176.4,,73,560.4,,21,106.2
+QF_BV/sage/app1/bench_992,,16,163.8,,23,235.2,,67,545.0,,17,86.5
+QF_BV/sage/app1/bench_994,,14,129.0,,20,139.8,,44,330.1,,16,82.2
+QF_BV/sage/app1/bench_996,,12,118.3,,21,124.4,,26,149.3,,16,82.5
+QF_BV/sage/app1/bench_998,,11,169.7,,21,122.8,,18,211.4,,13,96.9
+QF_BV/sage/app1/bench_1000,,11,61.0,,19,107.6,,16,121.0,,12,62.0
+QF_BV/sage/app1/bench_1004,,10,69.6,,18,53.6,,13,90.4,,11,55.4
+QF_BV/sage/app1/bench_1006,,9,64.4,,15,81.6,,11,81.5,,10,42.7
+QF_BV/sage/app1/bench_1008,,9,52.0,,14,74.3,,10,76.0,,9,40.0
+QF_BV/sage/app1/bench_1010,,8,60.2,,15,81.3,,11,77.1,,9,35.2
+QF_BV/sage/app1/bench_1012,,8,44.0,,13,50.1,,8,59.7,,9,41.9
+QF_BV/sage/app1/bench_1015,,7,50.2,,19,90.0,,8,63.3,,8,39.7
+QF_BV/sage/app1/bench_1017,,7,42.3,,13,43.6,,9,67.1,,8,34.4
+QF_BV/sage/app1/bench_1019,,7,39.7,,15,75.8,,7,50.1,,8,41.9
+QF_BV/sage/app1/bench_1021,,7,53.0,,10,56.0,,7,54.5,,7,35.3
+QF_BV/sage/app1/bench_1023,,6,36.7,,11,38.0,,8,56.7,,7,36.9
+QF_BV/sage/app1/bench_1027,,7,50.5,,11,62.8,,8,60.5,,8,38.6
+QF_BV/sage/app1/bench_1035,,7,52.2,,11,53.4,,8,60.4,,7,32.2
+QF_BV/sage/app1/bench_1109,,7,72.6,,12,75.7,,7,56.1,,7,37.3
+QF_BV/sage/app1/bench_1110,,7,57.9,,12,42.5,,7,53.2,,7,35.0
+QF_BV/sage/app1/bench_1126,,14,815.2,,39,1351.5,,- -,- -,,18,399.2
+QF_BV/sage/app1/bench_1128,,7,63.5,,14,91.8,,8,58.7,,7,34.6
+QF_BV/sage/app1/bench_1448,,15,1264.3,,24,999.8,,26,1289.6,,17,336.7
+QF_BV/sage/app1/bench_1459,,15,774.8,,30,1109.1,,37,1416.7,,17,383.9
+QF_BV/sage/app1/bench_1470,,15,795.4,,27,946.9,,41,2212.6,,18,454.4
+QF_BV/sage/app1/bench_1481,,15,847.9,,24,842.2,,26,702.8,,18,367.9
+QF_BV/sage/app1/bench_1492,,16,1750.4,,31,1122.3,,44,1647.7,,20,225.1
+QF_BV/sage/app1/bench_1525,,15,810.2,,32,1172.4,,38,1404.9,,18,362.9
+QF_BV/sage/app1/bench_1559,,15,761.5,,41,1437.2,,44,1647.6,,18,388.2
+QF_BV/sage/app1/bench_1873,,15,1267.3,,27,945.3,,46,2241.9,,18,320.9
+QF_BV/sage/app1/bench_1877,,15,816.9,,39,1260.9,,36,1590.3,,19,405.1
+QF_BV/sage/app1/bench_1913,,15,824.6,,34,1186.4,,52,2457.5,,19,413.7
+QF_BV/sage/app1/bench_1914,,16,903.2,,35,1064.8,,47,3054.5,,18,367.0
+QF_BV/sage/app1/bench_1915,,15,931.3,,27,942.1,,61,2879.2,,18,340.4
+QF_BV/sage/app1/bench_1916,,16,584.0,,33,1654.3,,28,3023.3,,20,434.2
+QF_BV/sage/app1/bench_1917,,16,840.6,,24,1535.3,,44,1622.7,,19,335.5
+QF_BV/sage/app1/bench_1920,,15,760.0,,29,979.0,,40,1486.7,,19,403.6
+QF_BV/sage/app1/bench_1924,,16,1264.2,,25,836.0,,44,1516.8,,19,426.4
+QF_BV/sage/app1/bench_1950,,16,1004.3,,29,1433.3,,58,2388.0,,19,423.6
+QF_BV/sage/app1/bench_2004,,16,548.5,,26,683.1,,46,1667.2,,19,288.0
+QF_BV/sage/app1/bench_2005,,16,645.4,,30,516.6,,42,2198.4,,19,228.0
+QF_BV/sage/app1/bench_2020,,16,616.0,,26,539.7,,68,2354.1,,19,277.0
+QF_BV/sage/app1/bench_2021,,15,651.9,,28,871.7,,49,1054.6,,19,312.4
+QF_BV/sage/app1/bench_2022,,15,519.2,,34,955.8,,39,1409.5,,19,289.9
+QF_BV/sage/app1/bench_2024,,16,1316.3,,26,1501.5,,36,1022.5,,18,240.7
+QF_BV/sage/app1/bench_2025,,16,745.2,,27,669.4,,41,900.1,,19,303.8
+QF_BV/sage/app1/bench_2028,,16,437.1,,19,547.5,,80,2656.1,,19,178.6
+QF_BV/sage/app1/bench_2031,,16,1084.4,,26,720.0,,40,1849.6,,18,334.5
+QF_BV/sage/app1/bench_2088,,16,777.9,,20,534.5,,55,1856.3,,20,660.6
+QF_BV/sage/app1/bench_2089,,14,509.7,,27,953.3,,27,2250.1,,16,424.7
+QF_BV/sage/app1/bench_2124,,15,600.5,,29,644.5,,40,1355.6,,19,545.9
+QF_BV/sage/app1/bench_2128,,16,631.5,,24,634.4,,44,3467.4,,19,289.9
+QF_BV/sage/app1/bench_2129,,17,978.3,,21,1037.9,,48,2592.9,,22,491.0
+QF_BV/sage/app1/bench_2133,,17,665.5,,23,591.5,,65,2181.4,,20,311.7
+QF_BV/sage/app1/bench_2135,,17,817.9,,25,707.1,,75,2884.3,,20,327.2
+QF_BV/sage/app1/bench_2138,,18,957.0,,23,746.9,,71,2931.4,,22,306.3
+QF_BV/sage/app1/bench_2141,,15,541.7,,22,558.1,,60,1953.3,,20,265.6
+QF_BV/sage/app1/bench_2173,,16,675.2,,22,1014.9,,41,2150.7,,19,359.6
+QF_BV/sage/app1/bench_2219,,17,858.9,,24,524.5,,67,2346.2,,20,347.8
+QF_BV/sage/app1/bench_2252,,16,505.8,,24,279.2,,53,1161.5,,20,212.0
+QF_BV/sage/app1/bench_2257,,16,425.6,,23,399.1,,71,1350.9,,20,187.1
+QF_BV/sage/app1/bench_2258,,17,689.6,,22,542.0,,65,2186.0,,21,177.3
+QF_BV/sage/app1/bench_2262,,17,395.3,,24,658.5,,52,681.5,,21,216.8
+QF_BV/sage/app1/bench_2263,,18,477.2,,20,376.3,,71,957.5,,23,247.3
+QF_BV/sage/app1/bench_2266,,18,912.8,,21,347.5,,56,1027.1,,24,263.4
+QF_BV/sage/app1/bench_2270,,16,434.7,,18,300.2,,58,1854.0,,21,206.2
+QF_BV/sage/app1/bench_2293,,16,653.8,,25,405.0,,42,955.4,,20,217.5
+QF_BV/sage/app1/bench_2322,,15,881.5,,37,902.6,,36,1539.7,,17,360.6
+QF_BV/sage/app1/bench_2330,,17,536.7,,22,694.8,,77,2194.7,,21,147.9
+QF_BV/sage/app1/bench_2365,,17,489.5,,23,218.7,,52,833.0,,22,190.4
+QF_BV/sage/app1/bench_2367,,14,954.9,,29,857.6,,48,1982.6,,16,339.0
+QF_BV/sage/app1/bench_2370,,17,348.4,,24,294.0,,88,1140.2,,21,149.1
+QF_BV/sage/app1/bench_2371,,16,435.5,,20,360.9,,77,1150.1,,21,199.2
+QF_BV/sage/app1/bench_2375,,17,354.7,,22,281.2,,49,712.3,,22,150.9
+QF_BV/sage/app1/bench_2376,,18,362.0,,22,192.5,,65,595.9,,22,170.9
+QF_BV/sage/app1/bench_2380,,18,406.8,,22,202.7,,38,388.7,,22,177.4
+QF_BV/sage/app1/bench_2383,,16,196.9,,18,248.2,,45,682.5,,21,388.1
+QF_BV/sage/app1/bench_2405,,18,761.1,,22,324.1,,96,1309.2,,22,190.3
+QF_BV/sage/app1/bench_2428,,16,382.2,,24,328.1,,58,895.7,,22,192.5
+QF_BV/sage/app1/bench_2461,,17,314.5,,22,168.7,,46,501.5,,23,274.7
+QF_BV/sage/app1/bench_2465,,17,385.5,,25,275.8,,55,688.6,,24,150.4
+QF_BV/sage/app1/bench_2466,,16,172.8,,24,258.6,,58,707.8,,22,167.4
+QF_BV/sage/app1/bench_2468,,17,358.3,,21,239.8,,67,1075.6,,23,178.9
+QF_BV/sage/app1/bench_2472,,17,405.7,,21,497.0,,57,584.7,,24,156.9
+QF_BV/sage/app1/bench_2473,,17,160.3,,23,249.0,,57,665.9,,25,163.8
+QF_BV/sage/app1/bench_2474,,17,313.9,,26,269.5,,68,774.8,,24,166.0
+QF_BV/sage/app1/bench_2477,,18,328.5,,30,345.8,,73,554.2,,26,190.4
+QF_BV/sage/app1/bench_2481,,16,467.7,,21,242.7,,82,1230.5,,23,167.1
+QF_BV/sage/app1/bench_2525,,17,323.4,,27,280.0,,53,688.9,,23,153.6
+QF_BV/sage/app1/bench_2529,,18,304.9,,20,201.3,,50,521.8,,23,144.1
+QF_BV/sage/app1/bench_2547,,17,339.4,,19,226.8,,72,873.1,,22,163.8
+QF_BV/sage/app1/bench_2582,,17,244.1,,30,293.8,,65,1337.5,,25,194.4
+QF_BV/sage/app1/bench_2586,,18,304.9,,23,216.7,,83,999.4,,27,169.1
+QF_BV/sage/app1/bench_2587,,19,188.5,,20,219.1,,77,992.4,,25,146.0
+QF_BV/sage/app1/bench_2588,,17,271.3,,23,230.9,,87,1156.2,,24,171.4
+QF_BV/sage/app1/bench_2593,,18,399.8,,21,186.2,,69,1313.3,,25,154.7
+QF_BV/sage/app1/bench_2594,,16,241.6,,25,277.8,,97,1080.9,,26,253.1
+QF_BV/sage/app1/bench_2595,,18,302.8,,23,249.4,,67,555.2,,25,152.3
+QF_BV/sage/app1/bench_2598,,19,444.2,,24,251.4,,83,902.5,,28,115.3
+QF_BV/sage/app1/bench_2602,,17,274.9,,25,178.5,,65,496.3,,26,157.2
+QF_BV/sage/app1/bench_2634,,17,280.9,,24,273.9,,85,994.7,,26,177.3
+QF_BV/sage/app1/bench_2644,,14,950.7,,33,2009.9,,51,2598.6,,16,383.4
+QF_BV/sage/app1/bench_2660,,17,270.8,,24,231.6,,82,1616.1,,25,163.3
+QF_BV/sage/app12/bench_1570,,6,24.8,,8,12.5,,7,18.9,,7,16.5
+QF_BV/sage/app12/bench_1592,,6,13.8,,14,44.1,,10,25.2,,8,18.9
+QF_BV/sage/app12/bench_1603,,6,23.0,,8,13.9,,8,32.1,,7,17.9
+QF_BV/sage/app12/bench_1625,,5,16.3,,7,18.9,,7,13.8,,5,8.2
+QF_BV/sage/app12/bench_1636,,5,28.2,,11,20.1,,7,28.0,,6,14.3
+QF_BV/sage/app12/bench_1670,,6,25.7,,8,19.4,,8,20.4,,6,14.1
+QF_BV/sage/app12/bench_1681,,5,17.4,,10,22.4,,8,18.1,,6,12.8
+QF_BV/sage/app12/bench_1692,,6,25.1,,10,34.3,,8,25.4,,6,15.3
+QF_BV/sage/app12/bench_1803,,6,38.5,,113,373.7,,7,18.5,,7,16.9
+QF_BV/sage/app12/bench_1914,,6,27.2,,7,10.2,,7,17.7,,6,13.7
+QF_BV/sage/app12/bench_2047,,6,24.7,,7,9.6,,7,22.3,,7,16.7
+QF_BV/sage/app12/bench_2625,,6,14.9,,8,15.9,,7,18.7,,7,16.7
+QF_BV/sage/app12/bench_2714,,6,13.9,,8,15.2,,7,26.2,,7,15.3
+QF_BV/sage/app12/bench_2847,,6,17.8,,8,18.8,,7,23.0,,7,16.1
+QF_BV/sage/app12/bench_2869,,6,25.1,,8,11.2,,8,13.9,,6,13.6
+QF_BV/sage/app12/bench_2892,,6,15.4,,8,11.5,,8,23.3,,6,14.5
+QF_BV/sage/app12/bench_2914,,6,39.3,,8,18.6,,7,27.8,,7,16.2
+QF_BV/sage/app12/bench_2969,,6,16.4,,8,16.3,,8,21.1,,7,15.7
+QF_BV/sage/app12/bench_3014,,6,25.6,,8,18.8,,6,16.2,,7,15.5
+QF_BV/sage/app12/bench_3202,,6,15.0,,8,17.8,,9,17.9,,7,21.2
+QF_BV/sage/app12/bench_3236,,6,24.2,,8,20.7,,8,33.0,,6,14.0
+QF_BV/sage/app12/bench_3247,,6,25.5,,8,11.1,,8,22.0,,8,23.5
+QF_BV/sage/app12/bench_3258,,6,26.8,,8,18.2,,7,16.0,,7,14.7
+QF_BV/sage/app12/bench_3291,,6,19.4,,8,14.5,,7,18.8,,7,14.8
+QF_BV/sage/app12/bench_3324,,6,17.1,,8,43.6,,7,12.8,,7,17.7
+QF_BV/sage/app12/bench_3337,,6,14.5,,8,15.3,,7,12.8,,7,11.6
+QF_BV/sage/app12/bench_3359,,7,34.6,,9,27.4,,9,17.5,,8,17.9
+QF_BV/sage/app12/bench_3381,,7,30.8,,10,22.0,,10,31.4,,8,19.7
+QF_BV/sage/app12/bench_3392,,7,21.2,,9,26.9,,13,53.8,,8,18.1
+QF_BV/sage/app12/bench_3403,,6,48.8,,8,13.8,,9,33.5,,8,23.2
+QF_BV/sage/app12/bench_3414,,7,31.2,,9,15.1,,10,20.6,,8,14.1
+QF_BV/sage/app12/bench_3425,,7,29.9,,10,18.4,,19,76.8,,8,19.6
+QF_BV/sage/app12/bench_3459,,8,49.8,,10,31.4,,23,72.3,,9,21.3
+QF_BV/sage/app12/bench_3470,,8,36.2,,12,33.9,,16,46.5,,9,22.0
+QF_BV/sage/app12/bench_3481,,7,62.7,,10,21.5,,11,43.2,,10,22.9
+QF_BV/sage/app12/bench_3592,,8,40.3,,19,51.4,,16,46.1,,8,18.1
+QF_BV/sage/app12/bench_3703,,8,28.6,,9,14.9,,14,38.3,,8,18.3
+QF_BV/sage/app12/bench_3836,,7,31.5,,10,27.6,,14,38.8,,9,15.8
+QF_BV/sage/app12/bench_4114,,8,39.9,,9,16.0,,21,57.0,,10,22.5
+QF_BV/sage/app12/bench_4202,,8,45.6,,9,16.5,,18,51.3,,9,19.1
+QF_BV/sage/app12/bench_4681,,8,37.4,,9,15.8,,16,47.8,,10,23.2
+QF_BV/sage/app12/bench_5258,,8,51.1,,9,15.3,,20,52.2,,9,20.0
+QF_BV/sage/app12/bench_5324,,8,23.5,,9,16.2,,29,80.3,,10,24.1
+QF_BV/sage/app12/bench_5327,,8,46.9,,9,12.4,,14,56.7,,11,24.6
+QF_BV/sage/app12/bench_5328,,8,34.8,,9,13.7,,16,31.0,,9,22.5
+QF_BV/sage/app12/bench_5329,,8,32.0,,9,15.5,,23,70.9,,9,20.6
+QF_BV/sage/app12/bench_5333,,8,34.5,,9,12.6,,19,52.0,,9,22.2
+QF_BV/sage/app12/bench_5334,,8,29.1,,9,15.9,,16,55.0,,9,20.9
+QF_BV/sage/app12/bench_5335,,8,61.8,,9,14.4,,17,39.4,,10,17.7
+QF_BV/sage/app12/bench_5348,,8,31.8,,9,15.1,,13,44.2,,9,19.3
+QF_BV/sage/app12/bench_5349,,8,61.5,,9,15.8,,24,43.8,,9,19.1
+QF_BV/sage/app12/bench_5350,,8,34.8,,9,16.5,,12,20.3,,10,24.8
+QF_BV/sage/app12/bench_5354,,8,26.7,,9,16.5,,15,42.1,,10,26.1
+QF_BV/sage/app12/bench_5361,,8,31.2,,9,16.4,,10,29.0,,9,21.0
+QF_BV/sage/app12/bench_5365,,8,33.9,,9,14.9,,11,25.0,,10,21.5
+QF_BV/sage/app12/bench_5367,,9,26.6,,13,37.5,,37,76.5,,11,27.8
+QF_BV/sage/app12/bench_5369,,10,31.4,,14,27.6,,49,139.8,,11,26.1
+QF_BV/sage/app12/bench_5370,,8,39.5,,11,69.2,,18,43.4,,10,26.7
+QF_BV/sage/app12/bench_5371,,8,44.2,,9,23.6,,22,61.7,,9,22.8
+QF_BV/sage/app12/bench_5372,,9,61.6,,10,18.9,,20,38.6,,10,24.4
+QF_BV/sage/app12/bench_5373,,8,36.8,,11,20.7,,21,58.3,,10,24.0
+QF_BV/sage/app12/bench_5377,,8,35.3,,12,21.2,,16,63.0,,10,22.8
+QF_BV/sage/app12/bench_5378,,8,35.4,,13,34.6,,43,127.1,,10,26.2
+QF_BV/sage/app12/bench_5379,,9,52.6,,11,19.7,,79,215.9,,11,27.3
+QF_BV/sage/app12/bench_5390,,8,41.7,,16,25.0,,21,62.6,,9,22.8
+QF_BV/sage/app12/bench_5401,,8,29.1,,14,23.3,,16,69.0,,10,24.8
+QF_BV/sage/app12/bench_5414,,8,31.0,,11,19.1,,35,64.7,,9,20.9
+QF_BV/sage/app12/bench_5445,,9,58.9,,12,27.5,,27,46.6,,10,23.9
+QF_BV/sage/app12/bench_5457,,9,40.9,,12,21.8,,36,101.5,,11,23.3
+QF_BV/sage/app12/bench_5461,,9,29.0,,12,20.2,,61,231.6,,10,21.9
+QF_BV/sage/app12/bench_5520,,9,80.0,,12,21.5,,46,124.3,,11,24.0
+QF_BV/sage/app12/bench_5532,,9,49.1,,12,18.1,,26,54.6,,11,25.7
+QF_BV/sage/app12/bench_5537,,8,31.3,,12,22.1,,28,115.8,,11,24.4
+QF_BV/sage/app12/bench_5540,,8,30.9,,12,24.8,,41,112.5,,11,26.9
+QF_BV/sage/app12/bench_5544,,9,43.1,,12,21.6,,64,229.6,,12,18.6
+QF_BV/sage/app12/bench_5545,,9,24.9,,12,21.5,,44,118.7,,11,24.3
+QF_BV/sage/app12/bench_5546,,9,25.6,,12,18.9,,37,99.0,,10,23.8
+QF_BV/sage/app12/bench_5547,,9,53.7,,12,22.1,,13,61.5,,11,24.9
+QF_BV/sage/app12/bench_5559,,9,44.7,,12,19.0,,28,80.2,,11,23.9
+QF_BV/sage/app12/bench_5560,,9,52.1,,12,26.7,,126,376.2,,11,24.5
+QF_BV/sage/app12/bench_5561,,8,28.6,,12,21.2,,76,203.2,,10,19.5
+QF_BV/sage/app12/bench_5566,,9,40.0,,12,22.5,,19,78.5,,11,23.5
+QF_BV/sage/app12/bench_5573,,9,30.7,,12,21.7,,34,89.7,,11,24.1
+QF_BV/sage/app12/bench_5577,,9,40.0,,12,23.8,,29,75.0,,11,24.1
+QF_BV/sage/app12/bench_5578,,10,44.5,,15,41.0,,128,495.9,,13,35.1
+QF_BV/sage/app12/bench_5580,,10,45.6,,13,39.5,,17,40.6,,12,36.4
+QF_BV/sage/app12/bench_5581,,10,55.4,,13,27.0,,45,106.2,,11,29.4
+QF_BV/sage/app12/bench_5582,,9,57.0,,12,22.8,,35,144.1,,12,34.1
+QF_BV/sage/app12/bench_5585,,10,25.5,,13,25.9,,41,78.7,,12,29.9
+QF_BV/sage/app12/bench_5587,,10,50.5,,14,28.8,,18,78.6,,11,27.0
+QF_BV/sage/app12/bench_5590,,9,47.3,,11,22.6,,34,124.7,,12,31.2
+QF_BV/sage/app12/bench_5591,,10,35.6,,13,24.2,,31,96.6,,11,28.3
+QF_BV/sage/app12/bench_5592,,11,42.9,,14,25.8,,35,85.8,,13,43.4
+QF_BV/sage/app12/bench_5609,,9,26.1,,- -,- -,,27,62.6,,12,30.9
+QF_BV/sage/app12/bench_5620,,10,27.9,,12,14.7,,88,270.8,,11,31.2
+QF_BV/sage/app12/bench_5751,,10,30.6,,11,22.5,,33,93.8,,11,28.3
+QF_BV/sage/app12/bench_5755,,11,25.9,,11,22.7,,22,69.4,,11,30.1
+QF_BV/sage/app12/bench_5762,,10,32.0,,11,20.9,,57,174.4,,11,29.8
+QF_BV/sage/app12/bench_5766,,11,24.1,,11,21.9,,24,72.5,,11,29.9
+QF_BV/sage/app12/bench_5768,,12,36.2,,15,21.0,,36,114.4,,11,29.4
+QF_BV/sage/app12/bench_5770,,11,27.7,,14,28.1,,80,285.0,,13,32.5
+QF_BV/sage/app12/bench_5771,,10,25.7,,13,24.3,,45,147.9,,11,29.2
+QF_BV/sage/app12/bench_5772,,11,26.6,,14,20.1,,65,193.8,,13,30.3
+QF_BV/sage/app12/bench_5773,,9,27.9,,13,27.8,,43,129.8,,10,29.1
+QF_BV/sage/app12/bench_5775,,10,30.2,,14,17.7,,29,89.1,,11,27.0
+QF_BV/sage/app12/bench_5778,,10,29.9,,13,18.8,,58,172.3,,11,26.4
+QF_BV/sage/app12/bench_5779,,10,30.4,,11,20.9,,27,81.5,,11,25.2
+QF_BV/sage/app12/bench_5780,,11,30.9,,14,18.9,,37,110.9,,12,30.8
+QF_BV/tacas07/BBB-32,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_BV/tacas07/rfunit_flat-64,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+,,,,,,,,,,,,
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_expr.calc_next.il.dwp,,7,1148.1,,- -,- -,,- -,- -,,8,262.8
+QF_ABV/dwp_formulas/try3_true_functions_dwp_mknod.mode_adjust.il.dwp,,10,2034.0,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try3_true_functions_dwp_mkdir.mode_adjust.il.dwp,,10,2578.2,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_expr.re_string_construct_common.il.dwp,,16,70.3,,- -,- -,,58,343.0,,25,92.8
+QF_ABV/dwp_formulas/try3_true_functions_dwp_mkfifo.mode_adjust.il.dwp,,9,1995.5,,- -,- -,,- -,- -,,12,2627.0
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_od.simple_strtoul.il.dwp,,8,315.1,,9,2818.2,,- -,- -,,9,267.8
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_csplit.re_string_translate_buffer.il.dwp,,7,770.0,,- -,- -,,- -,- -,,7,765.7
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_expr.peek_token_bracket.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try3_noof_functions_dwp_ptx.peek_token_bracket.il.dwp,,12,407.6,,- -,- -,,- -,- -,,18,679.3
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_vdir.strmode.il.dwp,,8,1965.1,,- -,- -,,- -,- -,,9,887.4
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_nl.peek_token_bracket.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_base64.base64_encode.il.dwp,,13,2278.4,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try3_noof_functions_dwp_csplit.peek_token_bracket.il.dwp,,11,441.4,,- -,- -,,- -,- -,,17,782.0
+QF_ABV/dwp_formulas/try3_noof_functions_dwp_mknod.mode_adjust.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_nl.calc_next.il.dwp,,7,1058.4,,- -,- -,,- -,- -,,8,308.6
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_sha1sum.sha1_read_ctx.il.dwp,,7,86.1,,- -,- -,,9,86.2,,7,35.5
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_ptx.calc_next.il.dwp,,7,540.8,,- -,- -,,- -,- -,,8,424.7
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_vdir.get_type_indicator.il.dwp,,9,83.8,,- -,- -,,12,51.1,,11,19.8
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_tac.calc_next.il.dwp,,7,490.5,,- -,- -,,- -,- -,,8,363.3
+QF_ABV/dwp_formulas/try3_true_functions_dwp_vdir.get_type_indicator.il.dwp,,9,43.6,,- -,- -,,11,24.9,,14,15.6
+QF_ABV/dwp_formulas/try3_noof_functions_dwp_nl.peek_token_bracket.il.dwp,,12,504.4,,- -,- -,,- -,- -,,18,848.2
+QF_ABV/dwp_formulas/try3_sameret_functions_dwp_expr.optimize_subexps.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try3_noof_functions_dwp_sha1sum.sha1_read_ctx.il.dwp,,6,91.2,,- -,- -,,9,83.6,,7,38.1
+QF_ABV/dwp_formulas/try3_true_functions_dwp_fmt.fmt_paragraph.il.dwp,,6,2046.0,,- -,- -,,- -,- -,,7,802.1
+QF_ABV/dwp_formulas/try4_true_functions_dwp_ptx.peek_token_bracket.il.dwp,,8,214.5,,- -,- -,,10,3519.1,,9,194.1
+QF_ABV/dwp_formulas/try4_true_functions_dwp_expr.peek_token_bracket.il.dwp,,8,235.6,,- -,- -,,- -,- -,,8,151.1
+QF_ABV/dwp_formulas/try4_true_functions_dwp_mkfifo.mode_adjust.il.dwp,,9,2289.8,,- -,- -,,- -,- -,,12,2016.1
+QF_ABV/dwp_formulas/try4_true_functions_dwp_mkdir.mode_adjust.il.dwp,,9,2549.1,,- -,- -,,- -,- -,,11,2501.8
+QF_ABV/dwp_formulas/try4_true_functions_dwp_nl.peek_token_bracket.il.dwp,,7,148.5,,- -,- -,,- -,- -,,9,85.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_stat.set_char_quoting.il.dwp,,32,193.9,,- -,- -,,122,1610.2,,49,167.6
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_mv.hash_get_entries.il.dwp,,12,2468.1,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_cut.set_char_quoting.il.dwp,,32,207.4,,- -,- -,,167,2142.7,,59,248.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_unexpand.set_char_quoting.il.dwp,,33,243.6,,- -,- -,,- -,- -,,69,275.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_tac.peek_token_bracket.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_dwp_fmt.fmt_paragraph.il.dwp,,- -,- -,,- -,- -,,- -,- -,,11,1743.1
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_sync.set_char_quoting.il.dwp,,33,204.6,,- -,- -,,133,1476.0,,67,252.4
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_mv.strmode.il.dwp,,15,3354.6,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_stat.strmode.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_dirname.set_char_quoting.il.dwp,,32,206.3,,- -,- -,,144,1514.1,,60,237.6
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_uptime.set_char_quoting.il.dwp,,34,202.9,,- -,- -,,- -,- -,,56,202.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_chgrp.set_char_quoting.il.dwp,,32,154.0,,- -,- -,,226,3397.4,,72,304.1
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_mkfifo.set_char_quoting.il.dwp,,32,202.6,,- -,- -,,168,1838.7,,69,269.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_kill.set_char_quoting.il.dwp,,33,180.6,,- -,- -,,152,1959.2,,71,274.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_nl.set_char_quoting.il.dwp,,32,170.4,,- -,- -,,187,2147.3,,56,182.4
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_sha1sum.sha1_read_ctx.il.dwp,,6,114.7,,- -,- -,,9,93.3,,7,62.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_head.set_char_quoting.il.dwp,,35,223.5,,- -,- -,,- -,- -,,59,203.5
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_csplit.optimize_subexps.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_shuf.set_char_quoting.il.dwp,,35,240.2,,- -,- -,,- -,- -,,50,173.0
+QF_ABV/dwp_formulas/try5_small_noof_functions_dwp_ptx.peek_token_bracket.il.dwp,,13,710.3,,- -,- -,,- -,- -,,20,771.6
+QF_ABV/dwp_formulas/try5_small_true_functions_dwp_vdir.get_type_indicator.il.dwp,,10,33.7,,- -,- -,,21,50.6,,14,16.2
+QF_ABV/dwp_formulas/try5_small_true_functions_dwp_tac.peek_token_bracket.il.dwp,,7,131.0,,- -,- -,,- -,- -,,8,94.5
+QF_ABV/dwp_formulas/try5_small_noof_functions_dwp_nl.peek_token_bracket.il.dwp,,13,635.5,,- -,- -,,- -,- -,,17,473.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_basename.set_char_quoting.il.dwp,,34,216.9,,- -,- -,,- -,- -,,60,199.6
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_tac.set_char_quoting.il.dwp,,33,196.8,,- -,- -,,107,903.2,,53,176.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_expr.calc_next.il.dwp,,7,753.3,,- -,- -,,- -,- -,,8,417.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_expr.peek_token_bracket.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_pathchk.set_char_quoting.il.dwp,,33,185.8,,- -,- -,,- -,- -,,70,294.5
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_tsort.set_char_quoting.il.dwp,,33,182.6,,- -,- -,,148,3079.2,,56,211.5
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_chgrp.hash_get_entries.il.dwp,,13,2487.0,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_tr.set_char_quoting.il.dwp,,31,203.6,,- -,- -,,146,1469.9,,73,327.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_logname.set_char_quoting.il.dwp,,32,199.0,,- -,- -,,171,2751.6,,62,233.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_unlink.set_char_quoting.il.dwp,,33,162.6,,- -,- -,,195,2735.9,,72,308.7
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_split.set_char_quoting.il.dwp,,34,217.4,,- -,- -,,192,3427.7,,68,268.4
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_shred.set_char_quoting.il.dwp,,31,187.4,,- -,- -,,117,877.7,,67,254.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_base64.base64_encode.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_ln.set_char_quoting.il.dwp,,33,182.0,,- -,- -,,166,1767.2,,74,309.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_ptx.optimize_subexps.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_cut.hash_get_entries.il.dwp,,12,1594.7,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_cksum.set_char_quoting.il.dwp,,34,216.5,,- -,- -,,124,1574.8,,57,210.6
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_uniq.set_char_quoting.il.dwp,,31,163.2,,- -,- -,,120,904.2,,70,279.6
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_sum.set_char_quoting.il.dwp,,33,164.0,,- -,- -,,127,1137.8,,62,257.4
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_ptx.peek_token_bracket.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_sha1sum.set_char_quoting.il.dwp,,32,195.2,,- -,- -,,- -,- -,,54,181.4
+QF_ABV/dwp_formulas/try5_small_noof_functions_dwp_vdir.get_type_indicator.il.dwp,,20,140.6,,- -,- -,,- -,- -,,23,27.5
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_seq.set_char_quoting.il.dwp,,33,167.0,,- -,- -,,97,851.8,,87,437.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_nl.peek_token_bracket.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_hostid.set_char_quoting.il.dwp,,34,210.8,,- -,- -,,137,1592.9,,65,268.7
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_expr.re_string_translate_buffer.il.dwp,,8,1137.7,,- -,- -,,- -,- -,,9,777.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_expand.set_char_quoting.il.dwp,,33,202.4,,- -,- -,,173,2150.4,,56,198.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_nl.calc_next.il.dwp,,8,1254.8,,- -,- -,,- -,- -,,8,514.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_nl.re_string_translate_buffer.il.dwp,,8,1004.7,,- -,- -,,- -,- -,,9,1234.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_csplit.set_char_quoting.il.dwp,,33,183.8,,- -,- -,,- -,- -,,57,219.3
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_tail.set_char_quoting.il.dwp,,33,221.5,,- -,- -,,196,3379.1,,70,221.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_dd.set_char_quoting.il.dwp,,35,235.9,,- -,- -,,163,1979.3,,56,226.4
+QF_ABV/dwp_formulas/try5_small_noof_functions_dwp_mkdir.mode_adjust.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_paste.set_char_quoting.il.dwp,,33,165.0,,- -,- -,,175,3262.2,,50,169.1
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_tee.set_char_quoting.il.dwp,,33,217.8,,- -,- -,,- -,- -,,77,362.3
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_pwd.set_char_quoting.il.dwp,,35,232.9,,- -,- -,,- -,- -,,57,186.7
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_csplit.peek_token_bracket.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_sha224sum.set_char_quoting.il.dwp,,33,199.2,,- -,- -,,122,1058.2,,79,318.4
+QF_ABV/dwp_formulas/try5_small_true_functions_dwp_ptx.compare_words.il.dwp,,21,223.2,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_nohup.set_char_quoting.il.dwp,,33,217.6,,- -,- -,,159,1497.3,,63,258.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_tac.calc_next.il.dwp,,7,1711.4,,- -,- -,,- -,- -,,8,542.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_rmdir.set_char_quoting.il.dwp,,33,205.7,,- -,- -,,- -,- -,,77,329.6
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_pinky.set_char_quoting.il.dwp,,35,191.2,,- -,- -,,137,1737.7,,63,226.6
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_cat.set_char_quoting.il.dwp,,31,159.9,,- -,- -,,- -,- -,,63,239.7
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_yes.set_char_quoting.il.dwp,,32,218.1,,- -,- -,,108,766.6,,64,235.1
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_mv.set_char_quoting.il.dwp,,35,208.7,,- -,- -,,106,791.4,,58,199.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_whoami.set_char_quoting.il.dwp,,32,157.6,,- -,- -,,112,1122.7,,60,220.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_od.simple_strtoul.il.dwp,,13,1364.1,,- -,- -,,- -,- -,,17,1004.3
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_setuidgid.set_char_quoting.il.dwp,,33,197.7,,- -,- -,,122,1114.1,,63,223.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_touch.set_char_quoting.il.dwp,,33,211.9,,- -,- -,,148,1651.0,,76,333.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_vdir.set_char_quoting.il.dwp,,33,167.8,,- -,- -,,101,765.5,,77,342.8
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_ptx.calc_next.il.dwp,,7,395.5,,- -,- -,,- -,- -,,8,808.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_join.set_char_quoting.il.dwp,,33,196.2,,- -,- -,,175,2954.7,,68,284.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_vdir.strmode.il.dwp,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_comm.set_char_quoting.il.dwp,,33,210.7,,- -,- -,,- -,- -,,64,245.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_sha512sum.set_char_quoting.il.dwp,,31,193.7,,- -,- -,,- -,- -,,87,477.0
+QF_ABV/dwp_formulas/try5_small_noof_functions_dwp_csplit.peek_token_bracket.il.dwp,,12,1862.5,,- -,- -,,- -,- -,,17,362.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_dwp_wc.set_char_quoting.il.dwp,,32,170.3,,- -,- -,,119,972.6,,89,454.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_df.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_link.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_true_functions_flanagansaxe_tac.peek_token_bracket.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_vdir.get_type_indicator.il.flanagansaxe,,14,336.9,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_nl.search_cur_bkref_entry.il.flanagansaxe,,19,2274.4,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_fold.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_mv.buffer_lcm.il.flanagansaxe,,14,323.4,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_ptx.compare_words.il.flanagansaxe,,11,459.9,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_factor.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_ptx.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_nl.peek_token_bracket.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_mkfifo.mode_adjust.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_pathchk.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_setuidgid.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_mv.hash_table_ok.il.flanagansaxe,,10,251.4,,- -,- -,,- -,- -,,22,328.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_mv.set_char_quoting.il.flanagansaxe,,25,2831.3,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_csplit.peek_token_bracket.il.flanagansaxe,,14,647.8,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_mknod.mode_adjust.il.flanagansaxe,,15,2908.7,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_nl.optimize_subexps.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_cut.hash_get_entries.il.flanagansaxe,,10,796.5,,- -,- -,,- -,- -,,21,724.2
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_cut.hash_get_entries.il.flanagansaxe,,10,416.2,,- -,- -,,- -,- -,,16,866.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_printenv.set_char_quoting.il.flanagansaxe,,28,3441.3,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_sha1sum.sha1_read_ctx.il.flanagansaxe,,8,1187.5,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_fmt.fmt_paragraph.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_mv.hash_get_entries.il.flanagansaxe,,10,651.7,,- -,- -,,- -,- -,,23,748.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_sha512sum.set_char_quoting.il.flanagansaxe,,27,3591.8,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_csplit.re_node_set_contains.il.flanagansaxe,,12,122.8,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_stat.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_vdir.hash_get_entries.il.flanagansaxe,,10,393.8,,- -,- -,,- -,- -,,16,782.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_tac.re_string_translate_buffer.il.flanagansaxe,,8,270.5,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_mkdir.mode_adjust.il.flanagansaxe,,14,3104.1,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_ptx.peek_token_bracket.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_nice.set_char_quoting.il.flanagansaxe,,27,3071.3,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_vdir.set_char_quoting.il.flanagansaxe,,31,3556.1,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_tr.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_true_functions_flanagansaxe_mknod.mode_adjust.il.flanagansaxe,,13,1247.2,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_env.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_rmdir.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_ptx.compare_words.il.flanagansaxe,,10,497.1,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_sha224sum.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_sync.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_shred.isaac_refill.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,10,1671.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_yes.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_mv.buffer_lcm.il.flanagansaxe,,10,196.3,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_fmt.fmt_paragraph.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_ptx.find_subexp_node.il.flanagansaxe,,10,515.6,,- -,- -,,- -,- -,,19,350.1
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_expr.re_string_construct_common.il.flanagansaxe,,8,2920.7,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_echo.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_date.time_zone_hhmm.il.flanagansaxe,,11,101.9,,- -,- -,,- -,- -,,19,99.1
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_ptx.re_string_construct_common.il.flanagansaxe,,8,1567.2,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_mknod.mode_adjust.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_ptx.peek_token_bracket.il.flanagansaxe,,13,342.6,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_stat.strmode.il.flanagansaxe,,20,515.0,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_tac.peek_token_bracket.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_expr.optimize_subexps.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_pinky.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_sleep.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_csplit.find_subexp_node.il.flanagansaxe,,11,460.5,,- -,- -,,- -,- -,,18,312.4
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_true.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_users.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_csplit.optimize_subexps.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_head.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_vdir.strmode.il.flanagansaxe,,20,610.6,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_od.simple_strtoul.il.flanagansaxe,,10,506.7,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_uptime.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_ptx.optimize_subexps.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_ptx.calc_next.il.flanagansaxe,,8,291.6,,- -,- -,,- -,- -,,11,155.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_paste.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_tac.set_char_quoting.il.flanagansaxe,,28,3538.2,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_mkfifo.mode_adjust.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_dirname.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_base64.base64_encode.il.flanagansaxe,,13,2413.3,,- -,- -,,- -,- -,,33,2372.0
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_hostid.set_char_quoting.il.flanagansaxe,,27,2212.7,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_mv.strmode.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_tac.optimize_subexps.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_expr.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_hostname.set_char_quoting.il.flanagansaxe,,26,1918.5,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_expr.find_subexp_node.il.flanagansaxe,,10,328.2,,- -,- -,,- -,- -,,27,1392.7
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_csplit.calc_next.il.flanagansaxe,,8,262.6,,- -,- -,,- -,- -,,12,203.3
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_cksum.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_expr.re_string_translate_buffer.il.flanagansaxe,,8,193.3,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_mv.strmode.il.flanagansaxe,,21,600.3,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_sha512sum.sha384_read_ctx.il.flanagansaxe,,6,3236.1,,- -,- -,,- -,- -,,7,201.2
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_stat.strmode.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_date.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_csplit.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_uniq.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_basename.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_split.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_test.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_noof_functions_flanagansaxe_chgrp.hash_get_entries.il.flanagansaxe,,10,466.5,,- -,- -,,- -,- -,,16,547.6
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_tee.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_vdir.hash_table_ok.il.flanagansaxe,,10,175.3,,- -,- -,,- -,- -,,22,300.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_expr.search_cur_bkref_entry.il.flanagansaxe,,21,475.1,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_chgrp.hash_get_entries.il.flanagansaxe,,10,804.3,,- -,- -,,- -,- -,,20,1070.9
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_expr.peek_token_bracket.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/dwp_formulas/try5_small_difret_functions_flanagansaxe_comm.set_char_quoting.il.flanagansaxe,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/platania/no_init_multi_member/no_init_multi_member2,,118,25.4,,- -,- -,,124,13.9,,- -,- -
+QF_ABV/platania/no_init_multi_member/no_init_multi_member3,,19,31.9,,- -,- -,,46,128.3,,- -,- -
+QF_ABV/platania/no_init_multi_member/no_init_multi_member4,,21,101.9,,- -,- -,,67,639.9,,- -,- -
+QF_ABV/platania/no_init_multi_member/no_init_multi_member6,,13,180.7,,- -,- -,,56,1428.5,,33,931.8
+QF_ABV/platania/no_init_multi_member/no_init_multi_member9,,14,608.6,,- -,- -,,- -,- -,,55,3539.2
+QF_ABV/platania/no_init_multi_member/no_init_multi_member11,,17,1369.2,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/platania/no_init_multi_member/no_init_multi_member15,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+QF_ABV/platania/no_init_multi_member/no_init_multi_member18,,- -,- -,,- -,- -,,- -,- -,,- -,- -
+,,,,,,,,,,,,
+QF_AUFBV/ecc/com.galois.ecc.P384ECC64.sq_inner12.short,,8,29.6,,19,261.2,,8,27.9,,- -,- -
+QF_AUFBV/ecc/com.galois.ecc.P384ECC64.sq_inner23.short,,9,18.6,,- -,- -,,11,24.9,,- -,- -
+QF_AUFBV/ecc/com.galois.ecc.P384ECC64.mul_inner4.short,,8,20.9,,17,43.3,,9,29.0,,- -,- -
+QF_AUFBV/ecc/com.galois.ecc.P384ECC64.sq_inner22.short,,8,32.0,,22,318.4,,8,33.4,,- -,- -
+QF_AUFBV/ecc/com.galois.ecc.P384ECC64.sq_inner13.short,,9,8.6,,- -,- -,,12,16.7,,- -,- -
+QF_AUFBV/ecc/com.galois.ecc.P384ECC64.mul_inner3.short,,7,88.4,,28,2432.7,,8,89.0,,- -,- -

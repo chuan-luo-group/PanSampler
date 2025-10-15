@@ -1,0 +1,9 @@
+.cache
+.vscode
+/bitwuzla/
+/clipp/
+/dbg-macro/
+PanSampler
+/benchmarks/QF_BV/
+/benchmarks/QF_ABV/
+/benchmarks/QF_AUFBV/

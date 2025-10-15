@@ -1,0 +1,567 @@
+diff --git a/Makefile b/Makefile
+new file mode 100644
+index 00000000..15dc7c6c
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,15 @@
++CONFIGURE = python3 configure.py
++
++.PHONY: release debug
++
++release:
++	$(CONFIGURE) -b build release
++	@cp libbitwuzla.mri build/libbitwuzla.mri
++	@cp Makefile.in build/Makefile
++	$(MAKE) -C build
++
++debug:
++	$(CONFIGURE) -b debug --no-testing debugoptimized
++	@cp libbitwuzla.mri debug/libbitwuzla.mri
++	@cp Makefile.in debug/Makefile
++	$(MAKE) -C debug
+diff --git a/Makefile.in b/Makefile.in
+new file mode 100644
+index 00000000..2e1a6f11
+--- /dev/null
++++ b/Makefile.in
+@@ -0,0 +1,9 @@
++AR = ar
++
++.PHONY: meson
++
++libbitwuzla.a: meson
++	$(AR) -M <libbitwuzla.mri
++
++meson:
++	meson compile
+diff --git a/include/bitwuzla/cpp/bitwuzla.h b/include/bitwuzla/cpp/bitwuzla.h
+index b85a0ce4..f9ff3b1b 100644
+--- a/include/bitwuzla/cpp/bitwuzla.h
++++ b/include/bitwuzla/cpp/bitwuzla.h
+@@ -1525,6 +1525,7 @@ class Bitwuzla
+    * @return The assertion formulas.
+    */
+   std::vector<Term> get_assertions();
++  std::vector<Term> get_original_assertions();
+ 
+   /**
+    * Determine if an assumption is an unsat assumption.
+@@ -1622,6 +1623,10 @@ class Bitwuzla
+    */
+   Term get_value(const Term &term);
+ 
++  void rand_phase(uint seed, int type);
++  void phase(const Term &term, const std::vector<int> &val);
++  void unphase(const Term &term);
++
+   /**
+    * Print the current input formula to the given output stream.
+    *
+diff --git a/libbitwuzla.mri b/libbitwuzla.mri
+new file mode 100644
+index 00000000..72e66d45
+--- /dev/null
++++ b/libbitwuzla.mri
+@@ -0,0 +1,8 @@
++create libbitwuzla.a
++addlib src/lib/libbitwuzlabb.a
++addlib src/lib/libbitwuzlabv.a
++addlib src/lib/libbitwuzlals.a
++addlib src/libbitwuzla.a
++addlib subprojects/cadical-rel-2.1.0/src/libcadical.a
++save
++end
+diff --git a/src/api/cpp/bitwuzla.cpp b/src/api/cpp/bitwuzla.cpp
+index 583571dc..f6dfec11 100644
+--- a/src/api/cpp/bitwuzla.cpp
++++ b/src/api/cpp/bitwuzla.cpp
+@@ -1434,6 +1434,19 @@ Bitwuzla::get_assertions()
+   return res;
+ }
+ 
++std::vector<Term>
++Bitwuzla::get_original_assertions()
++{
++  BITWUZLA_CHECK_NOT_NULL(d_ctx);
++  std::vector<Term> res;
++  const auto &assertions = d_ctx->original_assertions();
++  for (size_t i = 0, n = assertions.size(); i < n; ++i)
++  {
++    res.push_back(assertions[i]);
++  }
++  return res;
++}
++
+ bool
+ Bitwuzla::is_unsat_assumption(const Term &term)
+ {
+@@ -1536,6 +1549,29 @@ Bitwuzla::check_sat(const std::vector<Term> &assumptions)
+   return d_last_check_sat;
+ }
+ 
++void
++Bitwuzla::rand_phase(uint seed, int type) {
++  return d_ctx->rand_phase(seed, type);
++}
++
++void
++Bitwuzla::phase(const Term &term, const std::vector<int> &val) {
++  BITWUZLA_CHECK_NOT_NULL(d_ctx);
++  BITWUZLA_CHECK_TERM_NOT_NULL(term);
++  BITWUZLA_CHECK_OPT_PRODUCE_MODELS(d_ctx->options());
++  BITWUZLA_CHECK_TERM_TERM_MGR_BITWUZLA(term, "term");
++  return d_ctx->phase(*term.d_node, val);
++}
++
++void
++Bitwuzla::unphase(const Term &term) {
++  BITWUZLA_CHECK_NOT_NULL(d_ctx);
++  BITWUZLA_CHECK_TERM_NOT_NULL(term);
++  BITWUZLA_CHECK_OPT_PRODUCE_MODELS(d_ctx->options());
++  BITWUZLA_CHECK_TERM_TERM_MGR_BITWUZLA(term, "term");
++  return d_ctx->unphase(*term.d_node);
++}
++
+ Term
+ Bitwuzla::get_value(const Term &term)
+ {
+diff --git a/src/sat/cadical.cpp b/src/sat/cadical.cpp
+index c4259a41..892e3f81 100644
+--- a/src/sat/cadical.cpp
++++ b/src/sat/cadical.cpp
+@@ -33,6 +33,22 @@ Cadical::Cadical()
+   d_solver.reset(new CaDiCaL::Solver());
+   d_solver->set("shrink", 0);
+   d_solver->set("quiet", 1);
++
++  d_solver->set("phase", 1);
++  d_solver->set("forcephase", 1);
++  d_solver->set("lucky", 0);
++}
++
++void
++Cadical::phase(int32_t lit)
++{
++  d_solver->phase(lit);
++}
++
++void
++Cadical::unphase(int32_t lit)
++{
++  d_solver->unphase(lit);
+ }
+ 
+ void
+diff --git a/src/sat/cadical.h b/src/sat/cadical.h
+index bdf0e77c..053d5a28 100644
+--- a/src/sat/cadical.h
++++ b/src/sat/cadical.h
+@@ -35,6 +35,9 @@ class Cadical : public SatSolver
+  public:
+   Cadical();
+ 
++  void phase(int32_t lit) override;
++  void unphase(int32_t lit) override;
++
+   void add(int32_t lit) override;
+   void assume(int32_t lit) override;
+   int32_t value(int32_t lit) override;
+diff --git a/src/sat/sat_solver.h b/src/sat/sat_solver.h
+index 0d83c6a4..fa1a195c 100644
+--- a/src/sat/sat_solver.h
++++ b/src/sat/sat_solver.h
+@@ -30,6 +30,9 @@ class SatSolver
+   /** Destructor. */
+   virtual ~SatSolver(){};
+ 
++  virtual void phase(int32_t lit) = 0;
++  virtual void unphase(int32_t lit) = 0;
++
+   /**
+    * Add valid literal to current clause.
+    * @param lit The literal to add, 0 to terminate clause..
+diff --git a/src/solver/bv/bv_bitblast_solver.cpp b/src/solver/bv/bv_bitblast_solver.cpp
+index 3729097c..4d016444 100644
+--- a/src/solver/bv/bv_bitblast_solver.cpp
++++ b/src/solver/bv/bv_bitblast_solver.cpp
+@@ -97,6 +97,22 @@ BvBitblastSolver::solve()
+   util::Timer timer(d_stats.time_sat);
+   d_last_result = d_sat_solver->solve();
+ 
++  if (d_last_result == Result::SAT && lit_val_count[0].size() > 0) {
++    uint sz = lit_val_count[0].size();
++    if (sz < d_stats.num_cnf_literals + 1) {
++      lit_val_count[0].resize(d_stats.num_cnf_literals + 1);
++      lit_val_count[1].resize(d_stats.num_cnf_literals + 1);
++    }
++    for (uint i = sz; i <= d_stats.num_cnf_literals; i ++)
++      lit_val_count[0][i] = lit_val_count[1][i] = 0;
++    for (uint i = 1; i <= d_stats.num_cnf_literals; i ++) {
++      if (d_sat_solver->value(i) == 1)
++        lit_val_count[1][i] ++;
++      else
++        lit_val_count[0][i] ++;
++    }
++  }
++
+   return d_last_result;
+ }
+ 
+@@ -129,6 +145,80 @@ BvBitblastSolver::register_assertion(const Node& assertion,
+   update_statistics();
+ }
+ 
++void
++BvBitblastSolver::rand_phase(uint seed, int type) { // 0 / 1
++
++  if (type == 0) {
++    for (uint i = 1; i <= d_stats.num_cnf_literals; i++)
++      d_sat_solver->phase((rand() & 1) ? i : -i);
++    return ;
++  }
++
++  if (seed) srand(seed);
++
++  uint sz = lit_val_count[0].size();
++  if (sz < d_stats.num_cnf_literals + 1) {
++    lit_val_count[0].resize(d_stats.num_cnf_literals + 1);
++    lit_val_count[1].resize(d_stats.num_cnf_literals + 1);
++  }
++  for (uint i = sz; i <= d_stats.num_cnf_literals; i ++)
++    lit_val_count[0][i] = lit_val_count[1][i] = 0;
++
++  for (uint i = 1; i <= d_stats.num_cnf_literals; i++) {
++    int p0 = lit_val_count[0][i], p1 = lit_val_count[1][i];
++    if (p0 == 0 && p1 == 0)
++      p0 = p1 = 1;
++      
++    if (rand() % (p0 + p1) < p0)
++      d_sat_solver->phase(i);
++    else
++      d_sat_solver->phase(-i);
++  }
++}
++
++void
++BvBitblastSolver::phase(const Node& term, const std::vector<int> &val) {
++  assert(BvSolver::is_leaf(term));
++  assert(term.type().is_bool() || term.type().is_bv());
++
++  const Type& type = term.type();
++
++  if (d_bitblaster.bits(term).empty()) {
++    d_bitblaster.bitblast(term);
++  }
++
++  const auto& bits = d_bitblaster.bits(term);
++  assert(!bits.empty());
++
++  if (type.is_bool()) {
++    d_cnf_encoder->encode(bits[0]);
++    d_sat_solver->phase(val[0] == 1 ? bits[0].get_id() : -bits[0].get_id());
++  }
++  else {
++    for (size_t i = 0, size = bits.size(); i < size; ++i) {
++      d_cnf_encoder->encode(bits[i]);
++      d_sat_solver->phase(val[i] == 1 ? bits[i].get_id() : -bits[i].get_id());
++    }
++  }
++}
++
++void
++BvBitblastSolver::unphase(const Node& term) {
++  assert(BvSolver::is_leaf(term));
++  assert(term.type().is_bool() || term.type().is_bv());
++
++  const auto& bits = d_bitblaster.bits(term);
++  const Type& type = term.type();
++
++  if (type.is_bool()) {
++    d_sat_solver->unphase(bits[0].get_id());
++  }
++  else {
++    for (size_t i = 0, size = bits.size(); i < size; ++i)
++      d_sat_solver->unphase(bits[i].get_id());
++  }
++}
++
+ Node
+ BvBitblastSolver::value(const Node& term)
+ {
+diff --git a/src/solver/bv/bv_bitblast_solver.h b/src/solver/bv/bv_bitblast_solver.h
+index 38765095..1cad9f6e 100644
+--- a/src/solver/bv/bv_bitblast_solver.h
++++ b/src/solver/bv/bv_bitblast_solver.h
+@@ -32,6 +32,10 @@ class BvBitblastSolver : public Solver, public BvSolverInterface
+   BvBitblastSolver(Env& env, SolverState& state);
+   ~BvBitblastSolver();
+ 
++  void rand_phase(uint seed, int type) override;
++  void phase(const Node& term, const std::vector<int> &val) override;
++  void unphase(const Node& term) override;
++
+   Result solve() override;
+ 
+   void register_assertion(const Node& assertion,
+@@ -74,6 +78,8 @@ class BvBitblastSolver : public Solver, public BvSolverInterface
+   /** Result of last solve() call. */
+   Result d_last_result;
+ 
++  std::vector<int> lit_val_count[2];
++
+   struct Statistics
+   {
+     Statistics(util::Statistics& stats, const std::string& prefix);
+diff --git a/src/solver/bv/bv_solver.cpp b/src/solver/bv/bv_solver.cpp
+index 6c372d2f..4522e570 100644
+--- a/src/solver/bv/bv_solver.cpp
++++ b/src/solver/bv/bv_solver.cpp
+@@ -116,6 +116,35 @@ BvSolver::solve()
+   return d_sat_state;
+ }
+ 
++void
++BvSolver::rand_phase(uint seed, int type) {
++  d_bitblast_solver.rand_phase(seed, type);
++}
++
++void
++BvSolver::phase(const Node& term, const std::vector<int> &val) {
++  assert(BvSolver::is_leaf(term));
++  assert(term.type().is_bool() || term.type().is_bv());
++
++  if (d_cur_solver == option::BvSolver::BITBLAST) {
++    return d_bitblast_solver.phase(term, val);
++  } else {
++    return d_bitblast_solver.phase(term, val);
++  }
++}
++
++void
++BvSolver::unphase(const Node& term) {
++  assert(BvSolver::is_leaf(term));
++  assert(term.type().is_bool() || term.type().is_bv());
++
++  if (d_cur_solver == option::BvSolver::BITBLAST) {
++    return d_bitblast_solver.unphase(term);
++  } else {
++    return d_bitblast_solver.unphase(term);
++  }
++}
++
+ Node
+ BvSolver::value(const Node& term)
+ {
+diff --git a/src/solver/bv/bv_solver.h b/src/solver/bv/bv_solver.h
+index 525a644c..f1bcf34d 100644
+--- a/src/solver/bv/bv_solver.h
++++ b/src/solver/bv/bv_solver.h
+@@ -34,6 +34,10 @@ class BvSolver : public Solver, public BvSolverInterface
+   BvSolver(Env& env, SolverState& state);
+   ~BvSolver();
+ 
++  void rand_phase(uint seed, int type) override;
++  void phase(const Node& term, const std::vector<int> &val) override;
++  void unphase(const Node& term) override;
++
+   // Solver interface
+   Node value(const Node& term) override;
+ 
+diff --git a/src/solver/solver.h b/src/solver/solver.h
+index d124c924..af88d2af 100644
+--- a/src/solver/solver.h
++++ b/src/solver/solver.h
+@@ -38,6 +38,24 @@ class Solver
+    */
+   virtual bool check() { assert(false); return false; };
+ 
++  virtual void rand_phase(uint seed, int type)
++  {
++    (void) seed, (void) type;
++    assert(false);
++  }
++
++  virtual void phase(const Node& term, const std::vector<int> &val)
++  {
++    (void) term, (void) val;
++    assert(false);
++  }
++
++  virtual void unphase(const Node& term)
++  {
++    (void) term;
++    assert(false);
++  }
++
+   /** Compute value for given term. */
+   virtual Node value(const Node& term) = 0;
+ 
+diff --git a/src/solver/solver_engine.cpp b/src/solver/solver_engine.cpp
+index 02c47e8c..ca8cc6ce 100644
+--- a/src/solver/solver_engine.cpp
++++ b/src/solver/solver_engine.cpp
+@@ -143,6 +143,21 @@ SolverEngine::solve()
+   return d_sat_state;
+ }
+ 
++void
++SolverEngine::rand_phase(uint seed, int type) {
++  d_bv_solver.rand_phase(seed, type);
++}
++
++void
++SolverEngine::phase(const Node& term, const std::vector<int> &val) {
++  d_bv_solver.phase(term, val);
++}
++
++void
++SolverEngine::unphase(const Node& term) {
++  d_bv_solver.unphase(term);
++}
++
+ Node
+ SolverEngine::value(const Node& term)
+ {
+diff --git a/src/solver/solver_engine.h b/src/solver/solver_engine.h
+index 08140b7c..cf4416b3 100644
+--- a/src/solver/solver_engine.h
++++ b/src/solver/solver_engine.h
+@@ -64,6 +64,10 @@ class SolverEngine
+   SolverEngine(SolvingContext& context);
+   ~SolverEngine();
+ 
++  void rand_phase(uint seed, int type);
++  void phase(const Node& term, const std::vector<int> &val);
++  void unphase(const Node& term);
++
+   /**
+    * Solve current set of assertions.
+    *
+diff --git a/src/solving_context.cpp b/src/solving_context.cpp
+index 58587604..3de1932e 100644
+--- a/src/solving_context.cpp
++++ b/src/solving_context.cpp
+@@ -118,6 +118,22 @@ SolvingContext::assert_formula(const Node& formula)
+   }
+ }
+ 
++void
++SolvingContext::rand_phase(uint seed, int type) {
++  d_solver_engine.rand_phase(seed, type);
++}
++
++void
++SolvingContext::phase(const Node& term, const std::vector<int> &val) {
++  d_solver_engine.phase(term, val);
++}
++
++void
++SolvingContext::unphase(const Node& term) {
++  d_solver_engine.unphase(term);
++}
++
++
+ Node
+ SolvingContext::get_value(const Node& term)
+ {
+diff --git a/src/solving_context.h b/src/solving_context.h
+index 9cb39863..236ca850 100644
+--- a/src/solving_context.h
++++ b/src/solving_context.h
+@@ -35,6 +35,10 @@ class SolvingContext
+                  bool subsolver          = false);
+   ~SolvingContext();
+ 
++  void rand_phase(uint seed, int type);
++  void phase(const Node& term, const std::vector<int> &val);
++  void unphase(const Node& term);
++
+   /** Solve the current set of assertions in the context. */
+   Result solve();
+ 
+diff --git a/subprojects/cadical.wrap b/subprojects/cadical.wrap
+index 23044d2c..0c68945e 100644
+--- a/subprojects/cadical.wrap
++++ b/subprojects/cadical.wrap
+@@ -1,9 +1,9 @@
+ [wrap-file]
+-directory = cadical-rel-1.7.4
++directory = cadical-rel-2.1.0
+ 
+-source_url = https://github.com/arminbiere/cadical/archive/rel-1.7.4.tar.gz
+-source_filename = cadical-1.7.4.tar.gz
+-source_hash = 866c8a1332ff1ad5dc7ad403bdef3164420f3f947816b5c9509aad1d18ada7a1
++source_url = https://github.com/arminbiere/cadical/archive/rel-2.1.0.tar.gz
++source_filename = cadical-2.1.0.tar.gz
++source_hash = 0652b2b3f2dbaf19f1940cd882823bce44b6fc7a3c025066da7932254bcee237
+ 
+ patch_directory = cadical
+ 
+diff --git a/subprojects/packagefiles/cadical/meson.build b/subprojects/packagefiles/cadical/meson.build
+index 3163d090..c072bf6c 100644
+--- a/subprojects/packagefiles/cadical/meson.build
++++ b/subprojects/packagefiles/cadical/meson.build
+@@ -1,6 +1,6 @@
+ project('cadical',
+   'cpp',
+-  version: '1.7.4',
++  version: '2.1.0',
+   license: 'mit',
+   default_options: [
+     'cpp_std=c++11',
+diff --git a/subprojects/packagefiles/cadical/src/meson.build b/subprojects/packagefiles/cadical/src/meson.build
+index 8d6f0ae2..9389d3a2 100644
+--- a/subprojects/packagefiles/cadical/src/meson.build
++++ b/subprojects/packagefiles/cadical/src/meson.build
+@@ -19,6 +19,7 @@ sources = [
+   'backward.cpp',
+   'bins.cpp',
+   'block.cpp',
++  'cadical.cpp',
+   'ccadical.cpp',
+   'checker.cpp',
+   'clause.cpp',
+@@ -32,6 +33,7 @@ sources = [
+   'decide.cpp',
+   'decompose.cpp',
+   'deduplicate.cpp',
++  'drattracer.cpp',
+   'elim.cpp',
+   'ema.cpp',
+   'extend.cpp',
+@@ -41,18 +43,23 @@ sources = [
+   'flags.cpp',
+   'flip.cpp',
+   'format.cpp',
++  'frattracer.cpp',
+   'gates.cpp',
++  'idruptracer.cpp',
+   'instantiate.cpp',
+   'internal.cpp',
+   'ipasir.cpp',
++  'lidruptracer.cpp',
+   'limit.cpp',
+   'logging.cpp',
+   'lookahead.cpp',
+   'lratbuilder.cpp',
+   'lratchecker.cpp',
++  'lrattracer.cpp',
+   'lucky.cpp',
+   'message.cpp',
+   'minimize.cpp',
++  'mobical.cpp',
+   'occs.cpp',
+   'options.cpp',
+   'parse.cpp',
+@@ -79,10 +86,10 @@ sources = [
+   'subsume.cpp',
+   'terminal.cpp',
+   'ternary.cpp',
+-  'tracer.cpp',
+   'transred.cpp',
+   'util.cpp',
+   'var.cpp',
++  'veripbtracer.cpp',
+   'version.cpp',
+   'vivify.cpp',
+   'walk.cpp',
