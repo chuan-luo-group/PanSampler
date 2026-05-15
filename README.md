@@ -8,7 +8,7 @@ This repository includes the implementation of *PanSampler*, the benchmarks adop
 *PanSampler* is [publicly available on Github](https://github.com/ShuangyuLyu/PanSampler). To obtain *PanSampler*, a user may use `git clone` to get a local copy of the Github repository:
 
 ```sh
-git clone https://github.com/ShuangyuLyu/PanSampler.git
+git clone https://github.com/chuan-luo-group/PanSampler.git
 ```
 
 ## Instructions for Building *PanSampler*
